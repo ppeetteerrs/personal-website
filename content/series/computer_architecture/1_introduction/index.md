@@ -16,6 +16,7 @@ tags:
   - riscv
 series:
   - Computer Architecture
+draft: true
 ---
 
 # 1 Preface
@@ -40,10 +41,10 @@ Another difficulty lies in maintaining consistency between memory and the cache.
 
 One way to measure the benefits of different cache organizations is miss rate, which is the fraction of cache accesses that result in a miss. Misses can be sorted based on the 3-Cs model.
 
-- **Compulsory** &#8211; Very first access to a block cannot be in the cache. These misses occurs even if you have an infinite-sized cache.
-- **Capacity** &#8211; Occurs because of blocks being discarded and later retrieved (when cache cannot contain all the blocks).
-- **Conflict** &#8211; Occurs because a block may be discarded and later retrieved if multiple blocks map to its set and accesses to the different blocks are intermingled.
-- **Coherency** &#8211; cache flushes to keep multiple caches coherent in a multiprocessor.
+- **Compulsory** - Very first access to a block cannot be in the cache. These misses occurs even if you have an infinite-sized cache.
+- **Capacity** - Occurs because of blocks being discarded and later retrieved (when cache cannot contain all the blocks).
+- **Conflict** - Occurs because a block may be discarded and later retrieved if multiple blocks map to its set and accesses to the different blocks are intermingled.
+- **Coherency** - cache flushes to keep multiple caches coherent in a multiprocessor.
 
 It is usually prefered to measure **misses per instruction** rather than misses per memory reference (miss rate).
 
@@ -55,17 +56,15 @@ $$\text{Average memory access time} = \text{Hit time} + \text{Miss rate} \times 
 
 ## 2.1 Basic Cache Optimizations
 
-- **Larger block size to reduce miss rate** &#8211; reduces compulsory misses but increase miss penalty. Less number of tags slightly reduces static power. Larger block sizes increase capacity or conflict misses especially in smaller caches.
-- **Bigger caches to reduce miss rate** &#8211; but longer hit time and higher cost and power (static and dynamic)
-- **Higher associativity to reduce miss rate** &#8211; increased hit time and power consumption
-- **Multilevel caches to reduce miss penalty** &#8211; Allows faster hit time (small first level) yet larger blocks, bigger capacity and higher associativity in second level. Multilevel caches are also more pwoer-efficient than single-aggregate cache.
+- **Larger block size to reduce miss rate** - reduces compulsory misses but increase miss penalty. Less number of tags slightly reduces static power. Larger block sizes increase capacity or conflict misses especially in smaller caches.
+- **Bigger caches to reduce miss rate** - but longer hit time and higher cost and power (static and dynamic)
+- **Higher associativity to reduce miss rate** - increased hit time and power consumption
+- **Multilevel caches to reduce miss penalty** - Allows faster hit time (small first level) yet larger blocks, bigger capacity and higher associativity in second level. Multilevel caches are also more pwoer-efficient than single-aggregate cache.
 
-<div class="wp-block-katex-display-block katex-eq" data-katex-display="true">
-  <pre>\text{Average memory access time} = \text{Hit time}_{L1} + \text{Miss rate}_{L1} \times (\text{Hit time}_{L2} + \text{Miss rate}_{L2} \times \text{Miss penalty}_{L2})</pre>
-</div>
+$$ \text{Average memory access time} = \text{Hit time}_{L1} + \text{Miss rate}_{L1} \times (\text{Hit time}_{L2} + \text{Miss rate}_{L2} \times \text{Miss penalty}_{L2})$$
 
-- **Giving priority to read misses over writes to reduce miss penalty** &#8211; A write buffer is a good place to implement this optimization. However, it creates hazards because they hold the updated value of a location needed on a read miss (read-after-write) hazard through memory. One solution is to check the contents of the write buffer on a read miss. If there are no conflicts and the memory system is available, send the read before the writes to reduce the miss penalty. This has little effect on power consumption.
-- **Avoiding address translation during indexing of the cache to reduce hit time** &#8211; Caches must cope with the translation of a virtual address from the processor to a physical address to access memory. A common optimization is to use the page offset (part that is identical in both virtual and physical addresses) to index the cache. This adds some system complications on the size and structure of the L1 cache, but advantage of removing translation lookaside buffer (TLB) access from critical path outweigh disadvantages.
+- **Giving priority to read misses over writes to reduce miss penalty** - A write buffer is a good place to implement this optimization. However, it creates hazards because they hold the updated value of a location needed on a read miss (read-after-write) hazard through memory. One solution is to check the contents of the write buffer on a read miss. If there are no conflicts and the memory system is available, send the read before the writes to reduce the miss penalty. This has little effect on power consumption.
+- **Avoiding address translation during indexing of the cache to reduce hit time** - Caches must cope with the translation of a virtual address from the processor to a physical address to access memory. A common optimization is to use the page offset (part that is identical in both virtual and physical addresses) to index the cache. This adds some system complications on the size and structure of the L1 cache, but advantage of removing translation lookaside buffer (TLB) access from critical path outweigh disadvantages.
 
 # 3 Memory Technology and Optimzations
 

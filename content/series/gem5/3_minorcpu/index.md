@@ -473,7 +473,7 @@ class InputBuffer : public Reservable {
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    In the MinorCPU, the core of each pipeline stage&#8217;s logic lies in its <code>evaluate()</code> method. This method is called every cycle and represents most of the state update logic. The rest of the logic mostly lies in callback functions for memory interfaces.
+    In the MinorCPU, the core of each pipeline stage's logic lies in its <code>evaluate()</code> method. This method is called every cycle and represents most of the state update logic. The rest of the logic mostly lies in callback functions for memory interfaces.
   </p>
 </div>
 
@@ -496,7 +496,7 @@ ForwardLineData &line_out = *out.inputWire;
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    fetch1 receives <code>BranchData</code> from both execute and fetch2. The branching logic is very simple. If execute and fetch2 indicates a stream change for the same thread, prioritize the instruction from execute. The reason is very straightforward: execute stage branch data are certain (they are computed after an instruction&#8217;s results are evaluated), and fetch2 branch predictions are only primitive guesses based on the decoded instruction (they are totally be wrong). However, if the stream changes are for different branches, both will be carried out.
+    fetch1 receives <code>BranchData</code> from both execute and fetch2. The branching logic is very simple. If execute and fetch2 indicates a stream change for the same thread, prioritize the instruction from execute. The reason is very straightforward: execute stage branch data are certain (they are computed after an instruction's results are evaluated), and fetch2 branch predictions are only primitive guesses based on the decoded instruction (they are totally be wrong). However, if the stream changes are for different branches, both will be carried out.
   </p>
 </div>
 
@@ -574,7 +574,7 @@ After handling the change of stream, fetch1 proceeds to issue a fetch request fo
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    The <code>fetchLine</code> method constructs a request object (not requesting a single instruction but however many the lineWidth can accomodate) to send to the ITLB. It involves filling in the line&#8217;s <code>InstId</code> (<code>streamSeqNum</code>, <code>predictionSeqNum</code>, <code>lineSeqNum</code>). Then, the request object is pushed to the <code>requests</code> queue and a slot is reserved from the <code>transfers</code> queue. Afterwards, the <code>translateTiming</code> method of the TLB is invoked. Once a response is received, the <code>recvTimingResp</code> method is called and the <code>request</code> object in the <code>requests</code> queue is marked to <code>FetchRequest::Complete</code>.
+    The <code>fetchLine</code> method constructs a request object (not requesting a single instruction but however many the lineWidth can accomodate) to send to the ITLB. It involves filling in the line's <code>InstId</code> (<code>streamSeqNum</code>, <code>predictionSeqNum</code>, <code>lineSeqNum</code>). Then, the request object is pushed to the <code>requests</code> queue and a slot is reserved from the <code>transfers</code> queue. Afterwards, the <code>translateTiming</code> method of the TLB is invoked. Once a response is received, the <code>recvTimingResp</code> method is called and the <code>request</code> object in the <code>requests</code> queue is marked to <code>FetchRequest::Complete</code>.
   </p>
 </div>
 

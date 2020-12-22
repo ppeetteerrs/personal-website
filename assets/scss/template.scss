@@ -90,4 +90,34 @@ h6 {
 
 p {
   text-align: justify;
+  text-justify: inter-word;
 }
+
+figcaption.numbered::before {
+  font-weight: 400;
+  text-transform: none;
+}
+
+table {
+  display: table;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+.docs-article-container {
+  max-width: 920px;
+}
+
+mjx-container mjx-math {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+@media (max-width:768px) {
+  mjx-container mjx-math {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+

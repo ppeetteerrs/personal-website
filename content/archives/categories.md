@@ -6,7 +6,7 @@ content:
   taxonomy: categories
   count: 0
 design:
-  font_size_min: 1.5
-  font_size_max: 3.0
+  font_size_min: 0.7
+  font_size_max: 2.0
 weight: 10
 ---

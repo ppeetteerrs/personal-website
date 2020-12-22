@@ -213,7 +213,7 @@ The essence to identifying a common mistake is the three requirements listed bel
 
 **General Rule:** No Presumptions. The facts of the case will be examined objectively to determine who A objectively intended to contract with.
 
-- **Singapore Law:** For non- _inter praesentes_ cases, the question should be focused on who the non-mistaken party objectively intended to contract with &#8211;_The Law of Contract in Singapore_
+- **Singapore Law:** For non- _inter praesentes_ cases, the question should be focused on who the non-mistaken party objectively intended to contract with -_The Law of Contract in Singapore_
 
 ## 2.6 Non est Factum
 
@@ -781,7 +781,7 @@ The contract becomes voidable.
 
 ## 6.2 Class 1 (Actual UI)
 
-Actual undue influence has been described as "cases where there has been some unfair and improper conduct, some coercion from outside, some over-reaching, some form of cheating and generally some personal advantage obtained by a donee placed in some close and confidential relation to the donor" &#8211;_Allcard v Skinner_ (1887)
+Actual undue influence has been described as "cases where there has been some unfair and improper conduct, some coercion from outside, some over-reaching, some form of cheating and generally some personal advantage obtained by a donee placed in some close and confidential relation to the donor" -_Allcard v Skinner_ (1887)
 
 Significant overlap between Actual UI and duress.
 

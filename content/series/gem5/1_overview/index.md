@@ -23,7 +23,7 @@ series:
 
 ## 1.1 My Impression on gem5
 
-Before I start ranting about gem5, I have to say that gem5&#8217;s overall design is very modular and friendly to general users. However, for OCD people like me, it is a pain to work with it on a daily basis. First, the multi-language nature of gem5 makes it impossible to setup code Intellisense (it uses Python, C++ and plenty of custom DSLs). Finding function declarations and definitions can only be done through file search&#8230; Also, its poor documentation is a pain point. A lot of implementation details have to be found out through experimentation and digging through the source code. That is only of the main motivation for me to write this series. I hope that this tutorial series can benefit people who wish to get started in gem5 without going through the painful process of reading unformatted source code.
+Before I start ranting about gem5, I have to say that gem5's overall design is very modular and friendly to general users. However, for OCD people like me, it is a pain to work with it on a daily basis. First, the multi-language nature of gem5 makes it impossible to setup code Intellisense (it uses Python, C++ and plenty of custom DSLs). Finding function declarations and definitions can only be done through file search&#8230; Also, its poor documentation is a pain point. A lot of implementation details have to be found out through experimentation and digging through the source code. That is only of the main motivation for me to write this series. I hope that this tutorial series can benefit people who wish to get started in gem5 without going through the painful process of reading unformatted source code.
 
 ## 1.2 Helpful Resources
 

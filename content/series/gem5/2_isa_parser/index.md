@@ -685,7 +685,7 @@ def bitfield ALL &lt;31:0>;</code></pre>
       aside from the explicit arguments, the arguments <code>name</code> (=instructor mnemonic) and <code>Name</code> (capitalized <code>name</code>) will be available for use inside the format definition body
     </li>
     <li>
-      inside the format definition body, the string literal <code>%(CPU_exec_context)s</code> will be automatically substituted with the CPU&#8217;s execution context&#8217;s class name. This allows for some tweaking of code based on CPU (not really used as it sort of violates the module independence). If used, strings will be replicated once for each CPU model (defined in <code>built_opt/</code> env variables).
+      inside the format definition body, the string literal <code>%(CPU_exec_context)s</code> will be automatically substituted with the CPU's execution context's class name. This allows for some tweaking of code based on CPU (not really used as it sort of violates the module independence). If used, strings will be replicated once for each CPU model (defined in <code>built_opt/</code> env variables).
     </li>
   </ol>
 </div>
@@ -1393,7 +1393,7 @@ However, a better way to do it is to define instruction operands.
       default type of operand: an <code>operand_type</code>
     </li>
     <li>
-      <code>bitfield</code> name: the <code>bitfield</code> corresponding to the register "index" (in the instruction&#8217;s sense, not in the <code>ExecContext</code> sense, need to figure out how <code>ExecContext</code> manages the indexing)
+      <code>bitfield</code> name: the <code>bitfield</code> corresponding to the register "index" (in the instruction's sense, not in the <code>ExecContext</code> sense, need to figure out how <code>ExecContext</code> manages the indexing)
     </li>
     <li>
       string or tuple <ul>
@@ -1454,4 +1454,4 @@ An example of this is shown below (RISCV):
 
 # 4 Summary
 
-This tutorial / documentation is painstakingly put together over numerous days. I sincerely hope that it helps to explain the ISA Parser&#8217;s inner workings despite the poor documentation on the official site. If there are any errors / gaps, please kindly comment such that I can rectify it. Thank you!
+This tutorial / documentation is painstakingly put together over numerous days. I sincerely hope that it helps to explain the ISA Parser's inner workings despite the poor documentation on the official site. If there are any errors / gaps, please kindly comment such that I can rectify it. Thank you!

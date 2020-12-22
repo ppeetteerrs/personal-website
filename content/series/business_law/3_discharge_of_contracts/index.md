@@ -62,7 +62,7 @@ Do note that Singapore law seems to **heavily favour divisible contracts** due t
 
 {{<collapse summary="_GHoenig v Isaacs_ (1952)">}}
 
-- **Context:** Hoenig was an interior designed who agreed to furnish Isaacs's flat for \$750 and Isaacs only paid \$400 and refused to pay the balance because of a defective bookcase and wardrobe.
+- **Context:** Hoenig was an interior designed who agreed to furnish Isaacs's flat for $750 and Isaacs only paid $400 and refused to pay the balance because of a defective bookcase and wardrobe.
 - **Holding:** Entire performance was not a condition precedent to payment being paid. Hoenig was thus entitled to the contract price minus deductions for defects.
 
 {{</collapse>}}
