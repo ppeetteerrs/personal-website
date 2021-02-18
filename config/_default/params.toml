@@ -44,7 +44,7 @@ highlight_style = "shades-of-purple"
 
 math = true
 
-diagram = true
+diagram = false
 
 privacy_pack = false
 

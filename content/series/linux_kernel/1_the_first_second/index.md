@@ -1,12 +1,7 @@
 ---
 title: Linux Kernel – The First Second (Part 1)
-author: ppeetteerrsx
-type: post
-date: 2020-11-13T07:46:58+00:00
-excerpt: "An overview of what happens from the computer's power up to the linux kernel being loaded."
-url: /programming/linux-kernel-the-first-second-part-1/
-views:
-  - 8
+date: 2020-11-13
+summary: "An overview of what happens from the computer's power up to the linux kernel being loaded."
 categories:
   - Computer Engineering
   - Electrical Engineering
@@ -15,9 +10,8 @@ tags:
   - bootloader
   - computer engineering
   - linux
-series:
-  - Linux Kernel
-draft: true
+type: post
+weight: 10
 ---
 
 # 1 Overview
@@ -86,7 +80,7 @@ Basically, this stage 1.5 boot loader is file-system aware (since its now stored
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    Almost all Linux system nowadays use the Grand Unified Boot Loader v2 (GRUB2). It exists in the form of a file usually cored <code>core.img</code> withe a config file normally at <code>/boot/grub.grub.cfg</code>. GRUB2 has knowledge about the Linux file system. It basically displays the available kernel / OS to the user. Once the user selects a kernel, the kernel image is then loaded into memory and control is passed to the kernel. The steps involved are:
+    Almost all Linux system nowadays use the Grand Unified Boot Loader v2 (GRUB2). It exists in the form of a file usually cored `core.img` withe a config file normally at `/boot/grub.grub.cfg`. GRUB2 has knowledge about the Linux file system. It basically displays the available kernel / OS to the user. Once the user selects a kernel, the kernel image is then loaded into memory and control is passed to the kernel. The steps involved are:
   </p>
 </div>
 
@@ -105,7 +99,7 @@ Basically, this stage 1.5 boot loader is file-system aware (since its now stored
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    The kernel is a compressed image known as <code>initramfs</code> stored in <code>/boot</code> along with an initial RAM disk image and device maps of the hard drives. Once the kernel is loaded into the main memory, it begins decompression and the expanded image overwrites the initial image. Once the kernel has extracted itself, it loads <code>systemd</code> and turns control over to it.
+    The kernel is a compressed image known as `initramfs` stored in `/boot` along with an initial RAM disk image and device maps of the hard drives. Once the kernel is loaded into the main memory, it begins decompression and the expanded image overwrites the initial image. Once the kernel has extracted itself, it loads `systemd` and turns control over to it.
   </p>
 </div>
 
@@ -113,6 +107,6 @@ Basically, this stage 1.5 boot loader is file-system aware (since its now stored
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    Once loaded, the kernel finds the <code>init</code> function in <code>/sbin/init</code> and executes it. The first thing <code>init</code> does is reading the initialization file <code>/etc/inittab</code>. This instructs <code>init</code> to read an initial config script for the environment. Do note that <code>init</code> is to be replaced by <code>systemd</code> in the future.
+    Once loaded, the kernel finds the `init` function in `/sbin/init` and executes it. The first thing `init` does is reading the initialization file `/etc/inittab`. This instructs `init` to read an initial config script for the environment. Do note that `init` is to be replaced by `systemd` in the future.
   </p>
 </div>

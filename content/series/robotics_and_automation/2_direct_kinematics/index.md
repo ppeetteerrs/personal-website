@@ -17,7 +17,7 @@ weight: 20
 
 ## 1.1 Coordinates
 
-Let $p \in \mathbb{R}^n$ and $X = \{x^1, &#8230;, x^2\}$ be a complete orthonormal set for $\mathbb{R}^n$, then coordinates of $p$ w.r.t. $X$:
+Let $p \in \mathbb{R}^n$ and $X = \{x^1, ..., x^2\}$ be a complete orthonormal set for $\mathbb{R}^n$, then coordinates of $p$ w.r.t. $X$:
 
 $$p=\sum_{k=1}^n{[p]^n_k}x^k$$
 

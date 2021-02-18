@@ -1,12 +1,6 @@
 ---
 title: gem5 Deep Dive – MinorCPU (Part 3)
-author: ppeetteerrsx
-type: post
-date: 2020-10-13T15:44:58+00:00
-excerpt: In this blog post I will be going through the gem5 MinorCPU
-url: /ce/gem5-deep-dive-minorcpu-part-3/
-views:
-  - 15
+date: 2020-10-13
 categories:
   - Computer Architecture
   - Computer Engineering
@@ -15,8 +9,8 @@ tags:
   - gem5
   - huawei
   - riscv
-series:
-  - gem5 Deep Dive
+type: book
+weight: 30
 ---
 
 # 1 Concepts
@@ -25,13 +19,13 @@ Recall from the ISA Parser post that the gem5 ISA Parser generates C++ code base
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    The decode section exposes a <code>TheISA::Decoder</code> object which provides two important functions: <code>moreBytes(pc, inst)</code> and <code>decode(nextPC)</code>. <code>moreBytes</code> copies the instruction into the decoder’s class member (called <code>emi</code> for Extended Machine Instruction in RISCV). Then, decode is called, invoking the <code>decodeInst(machInst)</code> method in <code>build/RISCV/arch/riscv/generated/decode-method.cc.inc</code>. <code>decodeInst</code> maps the <code>uint64_t</code> instruction into a <code>StaticInst</code> object (there are some gem5-specific software caching involved to improve speed but are not important).
+    The decode section exposes a `TheISA::Decoder` object which provides two important functions: `moreBytes(pc, inst)` and `decode(nextPC)`. `moreBytes` copies the instruction into the decoder’s class member (called `emi` for Extended Machine Instruction in RISCV). Then, decode is called, invoking the `decodeInst(machInst)` method in `build/RISCV/arch/riscv/generated/decode-method.cc.inc`. `decodeInst` maps the `uint64_t` instruction into a `StaticInst` object (there are some gem5-specific software caching involved to improve speed but are not important).
   </p>
 </div>
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    After the <code>StaticInst</code> object is created, it exposes the methods <code>execute</code>, <code>initiateAcc</code>, <code>completeAcc</code> and <code>advancePC</code>. These methods make use of the standard API provided by the CPU-specific <code>ExecContext</code> object. The CPU, based on its pipeline implementation, calls these methods at the suitable pipeline stage.
+    After the `StaticInst` object is created, it exposes the methods `execute`, `initiateAcc`, `completeAcc` and `advancePC`. These methods make use of the standard API provided by the CPU-specific `ExecContext` object. The CPU, based on its pipeline implementation, calls these methods at the suitable pipeline stage.
   </p>
 </div>
 
@@ -41,13 +35,13 @@ In this post, we will be looking into the software implementation of the MinorCP
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    The MinorCPU pipeline consists of four stages: <code>fetch1</code>, <code>fetch2</code>, <code>decode</code> and <code>execute</code>. <code>fetch1</code> is responsible for ITLB access and fetching the instruction from main memory. <code>fetch2</code> is responsible for decoding the instruction. <code>decode</code> is mainly just book-keeping and handling micro-ops (not really useful). <code>execute</code> is responsible for issuing and executing instructions, as well as writeback and commit.
+    The MinorCPU pipeline consists of four stages: `fetch1`, `fetch2`, `decode` and `execute`. `fetch1` is responsible for ITLB access and fetching the instruction from main memory. `fetch2` is responsible for decoding the instruction. `decode` is mainly just book-keeping and handling micro-ops (not really useful). `execute` is responsible for issuing and executing instructions, as well as writeback and commit.
   </p>
 </div>
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    The MinorCPU <code>Pipeline</code> object is a <code>Ticked</code> object. A <code>Ticked</code> object calls the <code>evaluate</code> function every clock cycle. The <code>Pipeline</code> object is hence defined as follows:
+    The MinorCPU `Pipeline` object is a `Ticked` object. A `Ticked` object calls the `evaluate` function every clock cycle. The `Pipeline` object is hence defined as follows:
   </p>
 </div>
 
@@ -85,7 +79,7 @@ In this post, we will be looking into the software implementation of the MinorCP
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    Notice that the pipeline starts with the <code>execute</code> stage and is evaluated in the reverse order. The reason behind the reverse execution is purely software (unless the backwards branch data are utilized without latency, i.e. wired directly to some combinatorics). By performing reverse execution, output latch data can be consumed by a later stage before new input data is being pushed by the current stage. This greatly simplifies the software implementation of the pipeline.
+    Notice that the pipeline starts with the `execute` stage and is evaluated in the reverse order. The reason behind the reverse execution is purely software (unless the backwards branch data are utilized without latency, i.e. wired directly to some combinatorics). By performing reverse execution, output latch data can be consumed by a later stage before new input data is being pushed by the current stage. This greatly simplifies the software implementation of the pipeline.
   </p>
 </div>
 
@@ -95,7 +89,7 @@ In this post, we will be looking into the software implementation of the MinorCP
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    A <code>Latch</code> in MinorCPU is just a data buffer (i.e., register) with a delay of 1 cycle. A <code>Latch</code> has a child classes <code>Input</code> and <code>Output</code>, which contains an <code>inputWire</code> and <code>outputWire</code> respectively. The <code>inputWire</code> and <code>outputWire</code> are <code>wire</code> objects that essentially accesses a single buffered data item (de-referencing or <code>-&gt;</code> are passed to the buffered item). The code of the <code>Latch</code> class is shown below.
+    A `Latch` in MinorCPU is just a data buffer (i.e., register) with a delay of 1 cycle. A `Latch` has a child classes `Input` and `Output`, which contains an `inputWire` and `outputWire` respectively. The `inputWire` and `outputWire` are `wire` objects that essentially accesses a single buffered data item (de-referencing or `-&gt;` are passed to the buffered item). The code of the `Latch` class is shown below.
   </p>
 </div>
 
@@ -330,7 +324,7 @@ class Latch {
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    An <code>InputBuffer</code> is just an implementation of a <code>Queue</code> interface with an additional <code>elementPtr</code> attribute in front of the queue. It is just a data item that lies in front of the queue and uses pointer instead of value (claimed to improve efficiency zzzzz). Other than that, the <code>InputBuffer</code> behaves exactly like a queue.
+    An `InputBuffer` is just an implementation of a `Queue` interface with an additional `elementPtr` attribute in front of the queue. It is just a data item that lies in front of the queue and uses pointer instead of value (claimed to improve efficiency zzzzz). Other than that, the `InputBuffer` behaves exactly like a queue.
   </p>
 </div>
 
@@ -408,7 +402,7 @@ class InputBuffer : public Reservable {
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    In MinorCPU, every stage has its own custom <code>ThreadInfo</code> to store relevant data. The one for fetch1 is shown below.
+    In MinorCPU, every stage has its own custom `ThreadInfo` to store relevant data. The one for fetch1 is shown below.
   </p>
 </div>
 
@@ -454,17 +448,17 @@ class InputBuffer : public Reservable {
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    Interestingly, the most useful queues in fetch1 are not defined under <code>Fetch1ThreadInfo</code> but directly under <code>Fetch1</code>.
+    Interestingly, the most useful queues in fetch1 are not defined under `Fetch1ThreadInfo` but directly under `Fetch1`.
   </p>
 </div>
 
 <div class="wp-block-jetpack-markdown">
   <ul>
     <li>
-      <code>FetchQueue requests</code>: ITLB requests that are sent (in translation / completed) waiting to be moved to <code>transfers</code> queue (in order).
+      `FetchQueue requests`: ITLB requests that are sent (in translation / completed) waiting to be moved to `transfers` queue (in order).
     </li>
     <li>
-      <code>FetchQueue transfers</code>: Completed ITLB requests waiting to be sent to output line.
+      `FetchQueue transfers`: Completed ITLB requests waiting to be sent to output line.
     </li>
   </ul>
 </div>
@@ -473,7 +467,7 @@ class InputBuffer : public Reservable {
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    In the MinorCPU, the core of each pipeline stage's logic lies in its <code>evaluate()</code> method. This method is called every cycle and represents most of the state update logic. The rest of the logic mostly lies in callback functions for memory interfaces.
+    In the MinorCPU, the core of each pipeline stage's logic lies in its `evaluate()` method. This method is called every cycle and represents most of the state update logic. The rest of the logic mostly lies in callback functions for memory interfaces.
   </p>
 </div>
 
@@ -483,7 +477,7 @@ The fetch1 stage mainly handles instruction fetching from the ITLB. This include
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    At the beginning of the <code>evaluate()</code> method, input and output variables are set up. Fetch1 receives <code>BranchData</code> input from the execute and fetch2 branches and outputs <code>ForwardLineData</code> to fetch2.
+    At the beginning of the `evaluate()` method, input and output variables are set up. Fetch1 receives `BranchData` input from the execute and fetch2 branches and outputs `ForwardLineData` to fetch2.
   </p>
 </div>
 
@@ -496,7 +490,7 @@ ForwardLineData &line_out = *out.inputWire;
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    fetch1 receives <code>BranchData</code> from both execute and fetch2. The branching logic is very simple. If execute and fetch2 indicates a stream change for the same thread, prioritize the instruction from execute. The reason is very straightforward: execute stage branch data are certain (they are computed after an instruction's results are evaluated), and fetch2 branch predictions are only primitive guesses based on the decoded instruction (they are totally be wrong). However, if the stream changes are for different branches, both will be carried out.
+    fetch1 receives `BranchData` from both execute and fetch2. The branching logic is very simple. If execute and fetch2 indicates a stream change for the same thread, prioritize the instruction from execute. The reason is very straightforward: execute stage branch data are certain (they are computed after an instruction's results are evaluated), and fetch2 branch predictions are only primitive guesses based on the decoded instruction (they are totally be wrong). However, if the stream changes are for different branches, both will be carried out.
   </p>
 </div>
 
@@ -528,7 +522,7 @@ if (fetch2_branch.threadId != InvalidThreadID &&
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    The main body of the function <code>changeStream</code> is shown below. It basically updates the thread <code>state</code>, <code>streamSeqNum</code>, <code>predictionSeqNum</code> and <code>pc</code>. <code>streamSeqNum</code> and <code>predictionSeqNum</code> are numbers given by fetch2. They are updated on a thread-level and used to construct the <code>InstId</code> field of the fetched instruction. Later, in fetch2, they will be checked to ensure that obsolete instructions are discarded.
+    The main body of the function `changeStream` is shown below. It basically updates the thread `state`, `streamSeqNum`, `predictionSeqNum` and `pc`. `streamSeqNum` and `predictionSeqNum` are numbers given by fetch2. They are updated on a thread-level and used to construct the `InstId` field of the fetched instruction. Later, in fetch2, they will be checked to ensure that obsolete instructions are discarded.
   </p>
 </div>
 
@@ -574,7 +568,7 @@ After handling the change of stream, fetch1 proceeds to issue a fetch request fo
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    The <code>fetchLine</code> method constructs a request object (not requesting a single instruction but however many the lineWidth can accomodate) to send to the ITLB. It involves filling in the line's <code>InstId</code> (<code>streamSeqNum</code>, <code>predictionSeqNum</code>, <code>lineSeqNum</code>). Then, the request object is pushed to the <code>requests</code> queue and a slot is reserved from the <code>transfers</code> queue. Afterwards, the <code>translateTiming</code> method of the TLB is invoked. Once a response is received, the <code>recvTimingResp</code> method is called and the <code>request</code> object in the <code>requests</code> queue is marked to <code>FetchRequest::Complete</code>.
+    The `fetchLine` method constructs a request object (not requesting a single instruction but however many the lineWidth can accomodate) to send to the ITLB. It involves filling in the line's `InstId` (`streamSeqNum`, `predictionSeqNum`, `lineSeqNum`). Then, the request object is pushed to the `requests` queue and a slot is reserved from the `transfers` queue. Afterwards, the `translateTiming` method of the TLB is invoked. Once a response is received, the `recvTimingResp` method is called and the `request` object in the `requests` queue is marked to `FetchRequest::Complete`.
   </p>
 </div>
 
@@ -696,11 +690,11 @@ return true;
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    After issuing a new translation request, fetch1 advances the <code>requests</code> and <code>transfers</code> queues, handling completed requests and transfers. The essence here is simply to inspect the front of the request queue for completed request and move it to the transfer queue if possible. The only complication is the validations on whether the request is discardable or still in transfer etc.
+    After issuing a new translation request, fetch1 advances the `requests` and `transfers` queues, handling completed requests and transfers. The essence here is simply to inspect the front of the request queue for completed request and move it to the transfer queue if possible. The only complication is the validations on whether the request is discardable or still in transfer etc.
   </p>
 </div>
 
-<pre class="wp-block-code"><code>stepQueues();</code></pre>
+<pre class="wp-block-code">`stepQueues();`</pre>
 
 <div class="wp-block-ub-tabbed-content wp-block-ub-tabbed-content-holder wp-block-ub-tabbed-content-horizontal-holder-mobile wp-block-ub-tabbed-content-horizontal-holder-tablet" id="ub-tabbed-content-698d0adb-53ec-431e-bcac-a132821a8477">
   <div role="tablist" class="wp-block-ub-tabbed-content-tab-holder  horizontal-tab-width-mobile horizontal-tab-width-tablet">
@@ -808,7 +802,7 @@ transfers.push(request);
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    After inspecting and moving the <code>requests</code> queue, fetch1 then examines the <code>transfers</code> queue and push any valid data onto the output.
+    After inspecting and moving the `requests` queue, fetch1 then examines the `transfers` queue and push any valid data onto the output.
   </p>
 </div>
 
@@ -905,14 +899,14 @@ response->packet = NULL;
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    fetch2 is a relatively simple stage. It is mainly responsible for decoding machine instructions into <code>MinorDynInst</code> objects. The complications mainly come from handling instruction alignment and sizes (can be compressed or full, 2-byte or 4-byte aligned). This is because each <code>ForwardLineData</code> object passed from fetch1 can contain 1 or more (and even partial) instructions. The important fields in <code>Fetch2ThreadInfo</code> are:
+    fetch2 is a relatively simple stage. It is mainly responsible for decoding machine instructions into `MinorDynInst` objects. The complications mainly come from handling instruction alignment and sizes (can be compressed or full, 2-byte or 4-byte aligned). This is because each `ForwardLineData` object passed from fetch1 can contain 1 or more (and even partial) instructions. The important fields in `Fetch2ThreadInfo` are:
   </p>
 </div>
 
 <div class="wp-block-jetpack-markdown">
   <ul>
     <li>
-      <code>PCState pc</code>: remembered PC value <ul>
+      `PCState pc`: remembered PC value <ul>
         <li>
           if havePC is false in previous cycle, set new PC (from forwardlinedata.pc) and reset decoder to align to line start
         </li>
@@ -920,10 +914,10 @@ response->packet = NULL;
     </li>
     
     <li>
-      <code>bool havePC</code>: whether current PC is valid, turned invalid once there is branch predicted, or when branch is received at start of cycle (and line discarded)
+      `bool havePC`: whether current PC is valid, turned invalid once there is branch predicted, or when branch is received at start of cycle (and line discarded)
     </li>
     <li>
-      <code>unsigned int inputIndex</code>: index (relative to based index 0 of inp->front->line), 4 aligned <strong>decoder handles compressed instruction, 2-byte aligned full instr etc.</strong>
+      `unsigned int inputIndex`: index (relative to based index 0 of inp->front->line), 4 aligned **decoder handles compressed instruction, 2-byte aligned full instr etc.**
     </li>
   </ul>
 </div>
@@ -999,7 +993,7 @@ response->packet = NULL;
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    <code>commit</code> loops through all instructions in <code>ex_info.inFlightInsts</code> until there is either a branch change or a fault or reached maximum.
+    `commit` loops through all instructions in `ex_info.inFlightInsts` until there is either a branch change or a fault or reached maximum.
   </p>
 </div>
 

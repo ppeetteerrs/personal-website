@@ -56,7 +56,7 @@ type: post
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    Sometimes, code developers get a bit drunk when they write their libraries, so they decide to give their source codes weird file extensions. There are also times when the developers (like those who wrote the gem5 library&#8230;) are worried that innocent souls like myself are too bored and decide to dig deep into the automatically generated C++ codes. So they decided to call their auto-generated C++ files <code>xxx.cc.inc</code> (yet they are too lazy to write a proper documentation, so what choice am I left with but to ready these disgusting files). ORRR, there are also times when OpenCV does not have a certain CUDA library and so you have to implement it yourself by writing <code>xxx.cu</code> files.
+    Sometimes, code developers get a bit drunk when they write their libraries, so they decide to give their source codes weird file extensions. There are also times when the developers (like those who wrote the gem5 library...) are worried that innocent souls like myself are too bored and decide to dig deep into the automatically generated C++ codes. So they decided to call their auto-generated C++ files `xxx.cc.inc` (yet they are too lazy to write a proper documentation, so what choice am I left with but to ready these disgusting files). ORRR, there are also times when OpenCV does not have a certain CUDA library and so you have to implement it yourself by writing `xxx.cu` files.
   </p>
 </div>
 
@@ -68,7 +68,7 @@ type: post
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    The solution to this whole grandma story and personal whine is actually super simple, just go to Settings and search for File Associations. Afterwards, add a wildcard to select the relevant files and associate to the appropriate programming language, e.g. <code>cpp</code>.
+    The solution to this whole grandma story and personal whine is actually super simple, just go to Settings and search for File Associations. Afterwards, add a wildcard to select the relevant files and associate to the appropriate programming language, e.g. `cpp`.
   </p>
 </div><figure class="wp-block-image size-large is-style-default">
 
@@ -82,7 +82,7 @@ One of the most common things that we do when programming embedded systems (or I
 
 <div class="wp-block-jetpack-markdown">
   <p>
-    By convention, or common sense actually, when we write to an 8-bit register, we need a bit mask and an 8-bit <code>uint8_t</code> value. The bit mask needs to be applied to prevent us from changing the irrelevant bits. However, people like me always forget how to apply the bitmask and update the bit values in an elegant manner. That's why I am going to write it down here and never derive the formula again in my whole life.
+    By convention, or common sense actually, when we write to an 8-bit register, we need a bit mask and an 8-bit `uint8_t` value. The bit mask needs to be applied to prevent us from changing the irrelevant bits. However, people like me always forget how to apply the bitmask and update the bit values in an elegant manner. That's why I am going to write it down here and never derive the formula again in my whole life.
   </p>
 </div>
 

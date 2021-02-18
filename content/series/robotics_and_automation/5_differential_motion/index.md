@@ -146,7 +146,7 @@ A more traditional formulation of the Jacobian (not tool-configuration Jacobian)
 - Each joint controller will produce a restoring torque or force whenever there is an error between desired position of the link and the measured position
 - For small join displacements $\Delta q$, relationship between the displacement and restoring torque or force $\Delta \tau$ can be modelled as $\Delta \tau\_k = \gamma\_k \Delta q_k$
 - Here $\gamma_k>0$ can be thought of as a spring constant for joint $k$
-- Joint stiffness matrix $\Gamma = diag\{\gamma\_1,&#8230;,\gamma\_n\}$
+- Joint stiffness matrix $\Gamma = diag\{\gamma\_1,...,\gamma\_n\}$
 - Infinitesimal tool deflection $\Delta u = J(q) \Gamma^{-1} J^T(q)F^{Tool}$
 - Compliance matrix $G(q) = J(q) \Gamma^{-1} J^T(q)$ (invertible if $q$ is not singularity point)
 - Tool stiffness matrix $G^{-1}(q)$

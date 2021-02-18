@@ -31,7 +31,7 @@ Usually, groups are expected to make better decisions than individuals acting al
 ## 2.2 Solution {#22_solution}
 
 <p id="221_increase_task_conflict">
-  The key to reducing common knowledge effect is to <strong>increase task conflict</strong>.
+  The key to reducing common knowledge effect is to **increase task conflict**.
 </p>
 
 Task conflict is a conflict in understanding that occurs when there are **perceived disagreements** among group members **about the content of their decisions**, which involves differences in viewpoints, ideas and opinions. Ways to induce task conflict include:
@@ -73,7 +73,7 @@ One interesting experiment that shown the significance of a overarching identity
   
   <tr>
     <td class="has-text-align-center" data-align="center">
-      <strong>MU</strong>
+      **MU**
     </td>
     
     <td class="has-text-align-center" data-align="center">
@@ -87,7 +87,7 @@ One interesting experiment that shown the significance of a overarching identity
   
   <tr>
     <td class="has-text-align-center" data-align="center">
-      <strong>Plain</strong>
+      **Plain**
     </td>
     
     <td class="has-text-align-center" data-align="center">
@@ -101,7 +101,7 @@ One interesting experiment that shown the significance of a overarching identity
   
   <tr>
     <td class="has-text-align-center" data-align="center">
-      <strong>Liverpool</strong>
+      **Liverpool**
     </td>
     
     <td class="has-text-align-center" data-align="center">
@@ -198,7 +198,7 @@ Public vote if we want conformity, private vote if we want unique individual opi
 
 ### 5.1.2 Conformity as Interpersonal Communication Tactic {#512_conformity_as_interpersonal_communication_tactic}
 
-Conversational (&#8220;we all agree&#8221;, &#8220;star employees do it&#8221;) / behavioural references to influence other people's behaviour. E.g. hotel request cards should say &#8220;75% of guests participate&#8230;&#8221;.
+Conversational (&#8220;we all agree&#8221;, &#8220;star employees do it&#8221;) / behavioural references to influence other people's behaviour. E.g. hotel request cards should say &#8220;75% of guests participate...&#8221;.
 
 ## 5.2 Credibility {#52_credibility}
 

@@ -37,7 +37,7 @@ weight: 20
 <div class="wp-block-columns">
   <div class="wp-block-column">
     <p>
-      <strong>Step 1: </strong>Air enters the upper respiratory tract through the mouth and nose and into the pharynx. From the pharynx, air flows through the larynx into the trachea.
+      **Step 1: **Air enters the upper respiratory tract through the mouth and nose and into the pharynx. From the pharynx, air flows through the larynx into the trachea.
     </p>
   </div>
   
@@ -51,7 +51,7 @@ weight: 20
 <div class="wp-block-columns">
   <div class="wp-block-column">
     <p>
-      <strong>Step 2: </strong>Trachea branches into pair of primary bronchi which branch repeatedly into progressively smaller bronchi. The smallest bronchi branch to become bronchioles which continue branching until the respiratory bronchioles. Number of alveoli increases in the alveolar ducts and airways then end in grapelike clusters consisting entirely of alveoli.
+      **Step 2: **Trachea branches into pair of primary bronchi which branch repeatedly into progressively smaller bronchi. The smallest bronchi branch to become bronchioles which continue branching until the respiratory bronchioles. Number of alveoli increases in the alveolar ducts and airways then end in grapelike clusters consisting entirely of alveoli.
     </p>
   </div>
   
@@ -65,7 +65,7 @@ weight: 20
 <div class="wp-block-columns">
   <div class="wp-block-column">
     <p>
-      <strong>Step 3: </strong>Each tiny alveolus is composed of single later of epithelium, two types of epithelial cells are found in the alveoli. Surfactant produced by Type II cells in alveoli eases the expansion of the lungs during breathing.
+      **Step 3: **Each tiny alveolus is composed of single later of epithelium, two types of epithelial cells are found in the alveoli. Surfactant produced by Type II cells in alveoli eases the expansion of the lungs during breathing.
     </p>
   </div>
   

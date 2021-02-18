@@ -69,28 +69,14 @@
   width: 4px;
   height: 1.1rem;
   background: #fe5186;
-  margin-left: 10px;
+  margin-left: 6px;
   border-radius: 0px;
   animation: cursor 1.8s infinite;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-bottom: 1rem;
-  line-height: 1.5;
+  margin-bottom: -1px;
 }
 
 .avatar {
   height: auto;
-}
-
-p {
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 figcaption.numbered::before {
@@ -100,8 +86,8 @@ figcaption.numbered::before {
 
 table {
   display: table;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
@@ -114,10 +100,41 @@ mjx-container mjx-math {
   overflow-y: hidden;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   mjx-container mjx-math {
     overflow-x: auto;
     overflow-y: hidden;
   }
 }
 
+body .article-style {
+  line-height: 1.8rem;
+
+  li {
+    margin-bottom: 0.7rem;
+  }
+
+  blockquote {
+    font-style: italic;
+  }
+
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1em;
+    line-height: 1.5em;
+    // font-weight: 500;
+  }
+}
+
+.dark blockquote {
+  color: #b9b9b9;
+}

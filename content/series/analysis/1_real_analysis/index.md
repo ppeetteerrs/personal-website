@@ -6,9 +6,8 @@ categories:
 tags:
   - maths
   - real analysis
-type: post
+type: book
 weight: 10
-draft: true
 ---
 
 # 1 Preface
