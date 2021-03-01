@@ -6,7 +6,11 @@
 	],
 	"settings": {
 		"files.associations": {
-			"*.md": "latex"
+			// "*.md": "latex"
+		},
+		"[markdown]": {
+			"editor.wordWrap": "on",
+			"editor.quickSuggestions": true
 		}
 	}
 }
