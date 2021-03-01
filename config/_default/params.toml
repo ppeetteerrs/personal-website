@@ -4,7 +4,7 @@ day_night = true
 
 font = "poppins"
 
-font_size = "M"
+font_size = "S"
 
 site_type = "Person"
 

@@ -450,7 +450,7 @@ Promissory estoppel renders a promise as binding even though the promisee did no
 
 {{</collapse>}}
 
-## 5.3.1 Clear and Unequivocal Promise
+### 5.3.1 Clear and Unequivocal Promise
 
 **General Rule:** A clear and unequivocal promise implied by words or conduct.
 
