@@ -1,4 +1,29 @@
 {
+	"set": {
+		"prefix": "set",
+		"body": "\\set{$1}$0",
+		"description": "Set"
+	},
+	"space": {
+		"prefix": "qq",
+		"body": "\\quad",
+		"description": "Spacing"
+	},
+	"limits": {
+		"prefix": "lim",
+		"body": "\\limits_{${1:i=1}}^{${2:\\infty}}$0",
+		"description": "Limits"
+	},
+	"spoiler": {
+		"prefix": "spoiler",
+		"body": "{{<spoiler text=\"$1\">}}\n$0\n{{</spoiler>}}",
+		"description": "Spoiler block"
+	},
+	"aside": {
+		"prefix": "aside",
+		"body": "{{<aside title=\"$1\" type=\"${2:blue}\">}}\n$0\n{{</aside>}}",
+		"description": "Aside block"
+	},
 	"latex": {
 		"prefix": "la",
 		"body": "$$${0}$$",
@@ -180,22 +205,22 @@
 		"description": "Omega"
 	},
 	"rightarrow": {
-		"prefix": "->",
+		"prefix": "rightarrow",
 		"body": "\\rightarrow",
 		"description": "rightarrow"
 	},
 	"Rightarrow": {
-		"prefix": "=>",
+		"prefix": "then",
 		"body": "\\Rightarrow",
 		"description": "Rightarrow"
 	},
 	"Leftrightarrow": {
-		"prefix": "<=>",
+		"prefix": "iff",
 		"body": "\\Leftrightarrow",
 		"description": "Leftrightarrow"
 	},
 	"mapsto": {
-		"prefix": "-->",
+		"prefix": "map",
 		"body": "\\mapsto",
 		"description": "mapsto"
 	},
@@ -280,12 +305,12 @@
 		"description": "bar"
 	},
 	"leq": {
-		"prefix": "<=",
+		"prefix": "le",
 		"body": "\\leq",
 		"description": "leq symbol"
 	},
 	"geq": {
-		"prefix": ">=",
+		"prefix": "ge",
 		"body": "\\geq",
 		"description": "geq symbol"
 	},

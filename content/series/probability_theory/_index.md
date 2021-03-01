@@ -1,9 +1,9 @@
 ---
-title: Probability Theory
+title: Probability Theory and Statistics
 
 linktitle: Course
 
-summary: My notes
+summary: An introduction to the foundation of Probability Theory, followed by topics in Statistics.
 
 date: 2021-02-18
 

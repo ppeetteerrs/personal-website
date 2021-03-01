@@ -1,0 +1,8 @@
+<aside class=' {{.Get "type"| default "blue"}} '>
+  <strong class="title"
+    >{{.Get "title"| default "Definition" | markdownify | emojify }}</strong
+  >
+  <div>
+    <p>{{ .Inner | markdownify | emojify }}</p>
+  </div>
+</aside>

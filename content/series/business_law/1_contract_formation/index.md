@@ -63,42 +63,42 @@ A few general **rebut-table** rules are listed below. The essence here is to ans
 
 When differentiating between an offer and invitation to treat, we should consider the entire conduct and intentions of the parties instead of relying on pure wordings.
 
-{{<collapse summary="_Spencer v Harding_ (1870)">}}
+{{<spoiler text="_Spencer v Harding_ (1870)">}}
 
 - **Holding:** Words like "we are instructed to offer purchase of stock", "please send in your tenders" were not considered an offer.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ### 2.1.3 Display of Goods
 
 **General Rule:** Display of goods for sale is generally an invitation to treat.
 
-{{<collapse summary="_Pharmaceutical Society of GB v Boots Cash Chemists_ (1953)">}}
+{{<spoiler text="_Pharmaceutical Society of GB v Boots Cash Chemists_ (1953)">}}
 
 - **Context:** Pharmacists was stationed at cash desk, not at the shelves where the drugs were sold.
 - **Holding:** Customer make offer to buy when he presents the goods for payment. Seller may reject or accept the offer at the cash desk.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ### 2.1.4 Advertisements
 
 **General Rule:** Advertisements are generally interpreted as invitations to treat as people may want to negotiate further and stocks might be limited.
 
-{{<collapse summary="_Partridge v Crittenden_ (1968)">}}
+{{<spoiler text="_Partridge v Crittenden_ (1968)">}}
 
 - **Context:** "Bramblefinch cocks and hens, 25s each" advertised in magazine.
 - **Holding:** Advertisement is an invitation to treat because:
   people who read the advertisements may want to negotiate further - seller may have wanted to limit number of items to sell (or might not have enough stock unless they are manufacturer)
 
-{{</collapse>}}
+{{</spoiler>}}
 
 **Exception:** An advertisements is an offer if the advertiser shows an actual intention to be bound.
 
-{{<collapse summary="_Carlill v Carbolic Smoke Ball_ (1893)">}}
+{{<spoiler text="_Carlill v Carbolic Smoke Ball_ (1893)">}}
 
 - **Holding:** The fact that Carbolic Smoke Ball deposited $1000 with the Alliance Bank shows sincerity and intention to make an unilateral offer.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ### 2.1.5 Tenders
 
@@ -106,12 +106,12 @@ When differentiating between an offer and invitation to treat, we should conside
 
 **Exception:** A tender if an offer if it is explicitly stated that the highest offer would be accepted.
 
-{{<collapse summary="_Harvela Investments Ltd v Royal Trust Co Ltd of Canada_ (1986)">}}
+{{<spoiler text="_Harvela Investments Ltd v Royal Trust Co Ltd of Canada_ (1986)">}}
 
 - **Context:** Defendant invited two parties to submit tenders for some shares, stating that they would accept the highest offer.
 - **Holding:** The tender constitutes an offer.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ### 2.1.6 Auctions
 
@@ -124,18 +124,18 @@ When differentiating between an offer and invitation to treat, we should conside
 ### 2.1.7 Internet Transactions
 
 **General Rule:** Internet advertisements are generally invitations to treat (offer made when submitting order, subsequently accepted by seller through e.g. receipts).
-{{<collapse summary="Section 14 of Electronic Transactions Act">}}
+{{<spoiler text="Section 14 of Electronic Transactions Act">}}
 
 - "A proposal to conclude a contract made through one or more electronic communications which is not addressed to one or more specific parties, but is generally accessible to parties making use of information systems, including a proposal that makes use of interactive applications for the placement of orders through such information systems, is to be considered as an invitation to make offers, unless it clearly indicates the intention of the party making the proposal to be bound in case of acceptance."
 
-{{</collapse>}}
+{{</spoiler>}}
 
-{{<collapse summary="_Chwee Kin Keong v Digilandmall.com Pte Ltd_ (2004)">}}
+{{<spoiler text="_Chwee Kin Keong v Digilandmall.com Pte Ltd_ (2004)">}}
 
 - **Context:** Laser printers were listed for sale on the defendant's website but prices were incorrectly listed as $66 per laser printer instead of $3854 and plaintiffs ordered 1606 of these printers. Orders were processed by the defendant's automated order system and confirmation emails with the subject "Successful Purchase Confirmation from HP Online" were automatically sent to the plaintiffs.
 - **Holding:** Contract formed but vitiated on the basis of mistake.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ## 2.2 Was the offer terminated (before acceptance)?
 
@@ -168,21 +168,21 @@ Regarding the termination of the offer, the rules are generally **clear and stra
 
 **General Rule:** An offer with no express provision limiting its duration terminates after lapse of a reasonable time.
 
-{{<collapse summary="_Ramsgate Victoria Hotel v Montefiore_ (1866)">}}
+{{<spoiler text="_Ramsgate Victoria Hotel v Montefiore_ (1866)">}}
 
 - share prices are volatile and a 5-month period is considered unreasonable as a duration for the offer to remain open
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ### 2.2.4 Failure of Condition
 
 **General Rule:** Both explicitly stated / implied conditions would suffice.
 
-{{<collapse summary="_Financings Ltd v Stimson_ (1962)">}}
+{{<spoiler text="_Financings Ltd v Stimson_ (1962)">}}
 
 - purchaser viewed and offered to buy a functional car and car was then badly damaged. Offer no longer valid due to implied condition that car would remain in the same state in order for the offer to be valid
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ## 2.3 Was there a valid acceptance?
 
@@ -197,38 +197,38 @@ of an offer." - _Gay Choon Ing v Loh Sze Ti Terence Peter_ (2009)
 
 **General Rule:** The offeror may specify the way to accept the contract.
 
-{{<collapse summary="_Manchester Diocesan Council for Education v Commercial and General Investment Ltd_ (1970)">}}
+{{<spoiler text="_Manchester Diocesan Council for Education v Commercial and General Investment Ltd_ (1970)">}}
 
 - "Where … the offeror has prescribed a particular method of acceptance, but does not insist that only acceptance in that mode shall be binding, acceptance communicated to the offeror by any other mode which is just as good will conclude the contract"
 - "This offer may only be accepted by registered mail sent to X address"
 
-{{</collapse>}}
+{{</spoiler>}}
 
 **General Rule:** Acceptance by conduct is allowed (e.g. an offer to buy goods was accepted by supplying the goods).
 
-{{<collapse summary="_Brogden v Metropolitan Railway Co_ (1877)">}}
+{{<spoiler text="_Brogden v Metropolitan Railway Co_ (1877)">}}
 
 - railway company submitted to a merchant a draft agreement for coal supply. The agreement was returned with several amendments which the railway company did not expressly consent to. Company accepted deliveries of coals for next two years.
 - agreement was found starting from the point when such deliveries began based on the amended agreeement
 
-{{</collapse>}}
+{{</spoiler>}}
 
 **General Rule:** Acceptance by silence is generally not permitted.
 
-{{<collapse summary="_Felthouse v Bindley_ (1862)">}}
+{{<spoiler text="_Felthouse v Bindley_ (1862)">}}
 
 - uncle offered to buy nephew's horse, letter of offer says if he hear not more about the nephew he shall consider the horse his. When nephew sold the farm, uncle said the horse belongs to him.
 - Nephew intended his uncle to have the horse but he did not communicate such intention to his uncle or done anything to bind himself
 
-{{</collapse>}}
+{{</spoiler>}}
 
 **Exception:** Acceptance by silence is permitted if offeree explicitly said that if you don't hear from me, take it as acceptance.
 
-{{<collapse summary="_Re Selectmove Ltd_ (1995)">}}
+{{<spoiler text="_Re Selectmove Ltd_ (1995)">}}
 
 - "if you do not hear from me, take it there is an agreement between us"
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ### 2.3.3 Receipt Rule vs Postal Rule
 
@@ -264,86 +264,86 @@ Consideration is usually very easy to identify and justify because of the "pract
 
 ### 3.2.1 Consideration must be requested by the promisor
 
-{{<collapse summary="_Combe v Combe_ (1951)">}}
+{{<spoiler text="_Combe v Combe_ (1951)">}}
 
 - **Context:** wife sued ex-husband for breach of promise to pay her maintenance, saying she had upheld her promise not to apply for maintenance in court. Husband had not asked her to refrain from applying for maintenance in court
 - **Holding:** wife's promise was not good consideration
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ### 3.2.2 Consideration must move from the promisee
 
-{{<collapse summary="_Tweedle v Atkinson_ (1861)">}}
+{{<spoiler text="_Tweedle v Atkinson_ (1861)">}}
 
 - **Context:** A and B entered into a contract where each undertook to pay money to C. b died and C tried to enforce the contract against B's estate
 - **Holding:** C did not give consideration, it was A who provide consideration
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ### 3.2.3 Consideration must be sufficient but need not be adequate
 
 **General Rule:** General sufficiency (in the eye of the law).
 
-{{<collapse summary="_Chappel v Nestle_ (1960)">}}
+{{<spoiler text="_Chappel v Nestle_ (1960)">}}
 
 - **Context:** Nestle offered: "all you have to do to get such new record is to send three wrappers from Netl's 6d. milk chocolate bars, together with postal order for 1s. 6d." Three wrappers were discarded by Nestle once received
 - **Holding:** wrappers were part of the consideration
 
-{{</collapse>}}
+{{</spoiler>}}
 
 **General Rule:** Forbearance to sue is good consideration if X has reasonable grounds for his claim and honestly believes he has a fair chance of success and does not hide from Y anything that may affect the validity of the claim. - _Callisher v Bischoffsheim_ (1870)
 
 **General Rule:** Promise to perform an existing contractual duty to a third party is sufficient.
 
-{{<collapse summary="_The Eurymedon_ (1975)">}}
+{{<spoiler text="_The Eurymedon_ (1975)">}}
 
 - **Holding:** Benefit to promisor is that he is given a personal right to enforce the promise.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 **General Rule:** Promise to perform an existing legal duty is not good consideration. - _Stilk v Myrick_ (1831)
 
 **Exception:** Promise to perform an existing legal duty is good consideration if it goes beyond the existing duty.
 
-{{<collapse summary="_Glasbrook Bros Ltd vs Glamorgan County Council_ (1925)">}}
+{{<spoiler text="_Glasbrook Bros Ltd vs Glamorgan County Council_ (1925)">}}
 
 - **Holding:** The police force providing extra police protection than normal is considered good consideration.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 **Exception:** It is usually helpful to approach the issue of sufficiency in terms of "practical benefit".
 
-{{<collapse summary="_Williams v Roffey Bros_ (1990)">}}
+{{<spoiler text="_Williams v Roffey Bros_ (1990)">}}
 
 - **Context:** The Defendant sub-contracted carpentry work for 27 flats to the Plaintiff. The Plaintiff ran into financial difficulties partway through the project; one of the reasons was that the contract price was too low for him to operate satisfactorily. The Defendant was worried that the Plaintiff could not complete carpentry works in time. This would adversely affect the Defendant’s ability to complete the main contract on time. The Defendant thus agreed to pay Plaintiff an additional sum of money for each flat completed. The Plaintiff resumed work and completed 8 more flats, but did not receive the full additional sum for the 8 flats. The Plaintiff sued for the additional payment.
 - **Holding:** The Defendant obtained a "practical benefit" (or avoided a disbenefit) which constitutes good consideration. Here, it was the avoidance of having to find another subcontractor and avoiding paying a penalty under the main contract.
 
-{{</collapse>}}
+{{</spoiler>}}
 
-{{<collapse summary="_Stilk v Myrick_ (1809)">}}
+{{<spoiler text="_Stilk v Myrick_ (1809)">}}
 
 - **Context:** 2 crewmen deserted a ship. The captain promised the remaining sailors extra money to stay on. The captain reneged on his bargain. The sailors sued for the extra money.
 - **Holding:** There was no consideration because the sailors were under an existing legal obligation to sail the ship anyway; no fresh consideration was provided.
 
-{{</collapse>}}
+{{</spoiler>}}
 
-{{<collapse summary="_White v Bluett_ (1853)">}}
+{{<spoiler text="_White v Bluett_ (1853)">}}
 
 - **Context:** Son owed father money. Father waived the debt once the son promised he would stop complaining about the father’s will. The father died. The father’s estate sued the son on the debt.
 - **Holding:** The son had no right to complain; by abstaining from complaining he was providing no real consideration.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ### 3.2.4 Part payment of debt
 
 **General Rule:** Part payment of debt is not good consideration for discharge of the full debt.
 
-{{<collapse summary="_Foakes v Beer_ (1884)">}}
+{{<spoiler text="_Foakes v Beer_ (1884)">}}
 
 - **Context:** Ms Beer agreed to give Mr Foakes time to pay a debt of about £2000 and agreed to accept £500 as part satisfaction of the debt. In return, Ms Beer agreed not to sue him.
 - **Holding:** •Ms Beer was still entitled to sue him for the balance. Part payment of a debt does not constitute good consideration.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 **Exception:** A debtor going beyond his contractual obligations is good consideration for the creditor discharging the full amount of the debt for less. - _Pinnel’s Case_ (1602)
 
@@ -351,12 +351,12 @@ Consideration is usually very easy to identify and justify because of the "pract
 
 **General Rule:** Past consideration is not good consideration.
 
-{{<collapse summary="_Roscorla v Thomas_ (1842)">}}
+{{<spoiler text="_Roscorla v Thomas_ (1842)">}}
 
 - **Context:** The Plaintiff bought a horse from the Defendant for £30. After the purchase, the Defendant gave the Plaintiff an oral warranty that the horse was sound and free from vice. It appeared that the horse was not. The Plaintiff sued on the breach of the oral warranty, arguing that the warranty was supported by consideration of the £30 paid.
 - **Holding:** The consideration which supported the contract for the sale of the horse was insufficient to support the subsequent oral warranty. That consideration was past and executed.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 **Exception:** A past act can be good consideration if 3 requirements are met. - _RainforestTradingLtd and anothervStateBankof India Singapore_ (2012)
 
@@ -374,12 +374,12 @@ Besides an identifiable agreement and consideration, parties must also demonstra
 
 **Exception:** Presumption can be rebutted based on facts of the case.
 
-{{<collapse summary="_Merritt v Merritt_ (1970)">}}
+{{<spoiler text="_Merritt v Merritt_ (1970)">}}
 
 - **Context:** Husband went to live with another woman. Agreed to pay wife £40 a month out of which she must pay the outstanding mortgage payments on the house and on completion of all the payments, he would transfer to her sole ownership. Wife refused to leave car until he recorded the agreement in writing and they both signed it. After she completed all the payments, he refused to transfer their joint ownership to her solely.
 - **Holding:** On the facts, the presumption (of there being no intention to create legal relations) was rebutted.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ## 4.2 Commercial Agreements
 
@@ -387,12 +387,12 @@ Besides an identifiable agreement and consideration, parties must also demonstra
 
 **General Rule:** It is presumed that there is an intention to create legal relations.
 
-{{<collapse summary="_Edwards v Skyways Ltd_ (1964)">}}
+{{<spoiler text="_Edwards v Skyways Ltd_ (1964)">}}
 
 - **Context:** The clause read: "This arrangement is not entered into, nor is this memorandum written as a formal and legal agreement, and shall not be subject to legal jurisdiction in the Law Courts … but is only a definite expression and record of the purpose and intention of the … parties concerned, to which they each honorably pledge themselves with the fullest confidence – that it will be carried through by each of the three parties with mutual loyalty and friendly co-operation".
 - **Holding:** Based on the facts, the presumption (of there being an intention to create legal relations) was rebutted.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ### 4.2.2 Pre-contractual Documents
 
@@ -400,34 +400,34 @@ Commercial parties typically draft and exchange preliminary documents during neg
 
 **General Rule:** No intention to create legal relations if critical term not agreed upon.
 
-{{<collapse summary="_British Steel Corporation v Cleveland Bridge Engineering Co_ (1984)">}}
+{{<spoiler text="_British Steel Corporation v Cleveland Bridge Engineering Co_ (1984)">}}
 
 - **Context:** Cleveland was building a project, and was negotiating with British Steel about supply of steel nodes for the project. The price and detailed drawings had already been agreed, and British had indicated their plans for production and delivery. Cleveland sent a letter of intent to British Steel: "We are pleased to inform you it is [our] intention to enter into a sub-contract with you, for the supply and delivery of [steel nodes] … We request that you proceed immediately with the works pending preparation and issuing to you of the official form of a sub-contract."
 - **Context:** British Steel commenced work; no formal contract arrived. Cleveland asked for steel nodes in a certain sequence, leading to a revised fee quote by British Steel, including the words "timing of delivery was yet to be agreed". The revised price was agreed on, and the steel nodes were delivered, but not in accordance with Cleveland’s preferred timing. Cleveland refused to pay for the nodes, and British Steel sued.
 - **Holding:** No contract had been formed. The letter had stated "proceed … pending preparation … of the sub-contract". Ultimately, the matter in dispute was the timetable of delivery; starting and finishing work was not enough to create the contract.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 **General Rule:** Key terms already agreed upon and market convention allows pre-contractual document to serve as binding contract.
 
-{{<collapse summary="_Damon Cia SA v Hapag-Lloyd International SA, the Blankernstein_ (1985)">}}
+{{<spoiler text="_Damon Cia SA v Hapag-Lloyd International SA, the Blankernstein_ (1985)">}}
 
 - **Context:** The sellers of three ships had been negotiating with the brokers of an unnamed buyer. Key terms were agreed, and the sellers issued a memorandum of agreement containing the key terms, the purchase price, and that a 10% deposit would be payable on the purchaser signing the memorandum.
 - **Context:** The buyer was later identified, and the sellers issued a new memorandum of agreement including the name of the purchaser. The purchaser’s broker replied stating that the purchaser was content and keen to proceed. Nothing further happened. No deposit was paid, nothing was signed. The sellers sued for the 10% deposit for breach of contract (the contract being the memorandum)
 - **Holding:** The sellers were entitled to the 10% deposit. All the key terms of sale had been agreed before the memorandum of agreement was sent; the contract had already been formed (including a term on the 10% deposit) and was not contingent on the memorandum being signed. A crucial point was that the shipping market generally regarded an unsigned memorandum as sufficient to create a binding contract.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 **General Rule:** Divisible contracts might be binding to some extent.
 
-{{<collapse summary="_Emcor Drake & Scull v Sir Robert McAlpine_ (2004)">}}
+{{<spoiler text="_Emcor Drake & Scull v Sir Robert McAlpine_ (2004)">}}
 
 - **Context:** McAlpine was the main contractor on a project, and had been in discussions with Emcor Drake to act as sub-contractor. The parties had agreed on a total sub-contract price, but negotiations on the specific terms continued. No formal sub-contract was ever signed.
 - **Context:** As works had to commence under project timelines, McAlpine issued Emcor Drake a letter of intent setting out a limited scope of sub-contract work for a maximum sum of £1,000,000. With that, Emcor Drake started sub-contract works whilst continuing to negotiate the sub-contract with McAlpine. As negotiations continued, McAlpine continued to issue Emcor Drake successive letters of intent. Each successive letter of intent varied the scope of sub-contract work and increased the maximum sum payable, which eventually reached £14,000,000, The parties eventually fell into dispute.
 - **Holding:** No sub-contract had been concluded for the whole of the works. However, the successive letters of intent had contractual effect. McAlpine thus had to pay Emcor Drake for the work done up to a value of £14,000,000 (the maximum sum payable under the latest letter of intent).
 - **Holding:** This decision followed a line of cases which concluded that, where in the midst of negotiations, one party instructs another to start work, the instruction amounts to a commitment on the part of the instructor to pay a reasonable sum if the work is properly done.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 # 5 Promissory Estoppel
 
@@ -442,24 +442,24 @@ Promissory estoppel renders a promise as binding even though the promisee did no
 
 ## 5.3 Requirements for Promissory Estoppel
 
-{{<collapse summary="_Lam Chi Kin David v Deutsche Bank AG_ (2011)">}}
+{{<spoiler text="_Lam Chi Kin David v Deutsche Bank AG_ (2011)">}}
 
 - The promisor makes a clear and unequivocal promise to not enforce his contractual rights.
 - The promisee has relied on the promise.
 - It is inequitable for the promisor to go back on his promise.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ### 5.3.1 Clear and Unequivocal Promise
 
 **General Rule:** A clear and unequivocal promise implied by words or conduct.
 
-{{<collapse summary="_Hughes v Metropolitan Railway Co_ (1877)">}}
+{{<spoiler text="_Hughes v Metropolitan Railway Co_ (1877)">}}
 
 - **Context:** The landlord gave his tenant 6 months to repair the premises. In the middle of this 6-month period, the parties commenced negotiations for the sale of the lease to the landlord. The tenant indicated that he would not carry out repairs whilst they were negotiating. The landlord raised the issue of disrepair of the premises as a reason for lowering the price of the lease. Negotiations broke down, and the landlord sued the tenant for not repairing the premises.
 - **Holding:** It could be inferred from the landlord’s conduct that the notice period would not run while the negotiations continued and would only continue to run after the negotiations ended.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ### 5.3.2 Reliance
 
@@ -467,25 +467,25 @@ Promissory estoppel renders a promise as binding even though the promisee did no
 
 **General Rule:** Recent cases suggest a need for detrimental reliance.
 
-{{<collapse summary="_Lam Chi Kin David v Deutsche Bank AG_ (2010)">}}
+{{<spoiler text="_Lam Chi Kin David v Deutsche Bank AG_ (2010)">}}
 
 - **SGHC Holding**: detriment in either the "narrow" or "broad" conception of the term suffices.
   - **Narrow:** detriment that has already been incurred in reliance of the promise.
   - **Broad:** detriment that would only occur if the promisor were to go back on his or her promise.
 - **SGCA Holding:** "where the promisor has **obtained an advantage** from a promise to the promisee, he should not be allowed to resile from his promise on the basis of promissory estoppel".
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ### 5.3.3 Inequitable to Go Back on the Promise
 
 **General Rule:** Dishonest behavior by the promisor makes it more inequitable, converse is also true.
 
-{{<collapse summary="_D&C Builders v Rees_ (1966)">}}
+{{<spoiler text="_D&C Builders v Rees_ (1966)">}}
 
 - **Context:** •The Defendant owed the Plaintiff £482. The Defendant then offered the Plaintiff £300 to settle the account fully, or £0. The Plaintiff was nearing insolvency and thus accepted the payment. The Plaintiff then sought to recover the balance of £182.
 - **Holding:** It was not inequitable for the Plaintiff to go back on their promise as the Defendant had taken advantage of their weak position in procuring the agreement.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 **General Rule:** Can be explained using detrimental reliance.
 

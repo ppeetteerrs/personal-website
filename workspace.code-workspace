@@ -10,7 +10,11 @@
 		},
 		"[markdown]": {
 			"editor.wordWrap": "on",
-			"editor.quickSuggestions": true
+			"editor.quickSuggestions": {
+				"other": true,
+				"comments": true,
+				"strings": true
+			}
 		}
 	}
 }

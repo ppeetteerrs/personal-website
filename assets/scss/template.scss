@@ -137,3 +137,65 @@ body .article-style {
 .dark blockquote {
   color: #b9b9b9;
 }
+
+.article-style aside.blue {
+  color: #12537e;
+  background-color: #f6fbfe;
+  border-color: #209cee;
+}
+
+.article-style aside.green {
+  color: #127e5e;
+  background-color: #f6fefb;
+  border-color: #20eec1;
+}
+
+.article-style aside.yellow {
+  color: #7c7e12;
+  background-color: #fdfef6;
+  border-color: #c8ee20;
+}
+
+.article-style aside.red {
+  color: #7e2212;
+  background-color: #fef7f6;
+  border-color: #ee6120;
+}
+
+.article-style aside.purple {
+  color: #38127e;
+  background-color: #faf6fe;
+  border-color: #8a20ee;
+}
+
+.article-style aside.grey {
+  color: rgb(3, 6, 26);
+  background-color: #ffffff;
+  border-color: #170627;
+}
+
+.article-style aside p {
+  position: inherit;
+  display: inherit;
+  font-size: inherit;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.article-style aside p::before {
+  position: inherit;
+  top: inherit;
+  left: inherit;
+  font-size: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  content: inherit;
+  width: inherit;
+  text-align: inherit;
+}
+
+.article-style aside .title {
+  line-height: 2em;
+}

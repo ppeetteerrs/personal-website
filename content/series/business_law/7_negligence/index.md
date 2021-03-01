@@ -50,14 +50,14 @@ weight: 70
 
 **General Rule:** 1 threshold and 2 stage test
 
-{{<collapse summary="Spandeck Engineering (S) Pte Ltd v DSTA (2007)">}}
+{{<spoiler text="Spandeck Engineering (S) Pte Ltd v DSTA (2007)">}}
 
 - **Threshold:** Factual (reasonable) foreseeability
 - <strong>Two-stage Test</strong
   - Legal Proximity
   - Policy Considerations (if threshold + legal proximity established, prima facie duty of care arises. Policy considerations should then be applied to determine whether or not to negate this duty
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ## 3.1 Factual Foreseeability
 
@@ -68,14 +68,14 @@ weight: 70
 
 **Rare Failed Case**
 
-{{<collapse summary="Man Mohan Singh v Zurich Insurance (2008)">}}
+{{<spoiler text="Man Mohan Singh v Zurich Insurance (2008)">}}
 
 - **Context:** The appellants lost their two sons in a car accident. They tried to claim against the other party’s insurer for losses due to post-accident trauma and depression and also for costs due to their efforts to have another child via fertility treatment (the wife had problems conceiving).
 - **Holding: There was no duty of care in respect of the fertility treatment**
   - Where a driver’s negligent driving kills a child travelling in another car, he does not know whether the victims have a living parent or parents.
   - It is likely that they might have, but is the driver also expected to know that the victims would be all the children of the parent or parents when it is arguable that the driver should not be expected to know that the victims are all from the same family?
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ## 3.2 Legal Proximity
 
@@ -85,7 +85,7 @@ weight: 70
 
 **General Rule:** 5 factors
 
-{{<collapse summary="_Sutherland Shire Council v Heyman_ (1985)">}}
+{{<spoiler text="_Sutherland Shire Council v Heyman_ (1985)">}}
 
 - Physical Proximity (space and time)
 - Circumstantial Proximity (e.g. employer/employee, professional/client) - closeness of relationship
@@ -93,11 +93,11 @@ weight: 70
 - Assumption of responsibility
 - Reliance
 
-{{</collapse>}}
+{{</spoiler>}}
 
 **Personal Injury / Damage:** Physical, Circumstantial and Causal
 
-{{<collapse summary="BNM v National University of Singapore (2014)">}}
+{{<spoiler text="BNM v National University of Singapore (2014)">}}
 
 - **Context:** The plaintiff's husband drowned in a swimming pool owned by the first defendant ("NUS") and the plaintiff brought an action in tort against NUS for negligence. NUS had outsourced the supply of lifeguards and cleaning of the swimming pool to the second defendant ("Hydro Aquatic"). NUS tried to make Hydro Aquatic liable.
 - **Holding:** Legal proximity was found.
@@ -105,11 +105,11 @@ weight: 70
   - Swimmers can get into difficulty for a variety of reasons: sudden muscle cramps; accidental ingestion of large amounts of water; collisions with other swimmers or the pool wall; diving mishaps; or falls into the pool.
   - Because they are immersed in water, **the danger of drowning or serious injury arising from near fatal submersions is obvious**. Pool operators therefore have a duty to take reasonable care and responsibility for the safety of all who use their pools.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 **Psychiatric harm:** _McLoughlin_ factors
 
-{{<collapse summary="McLoughlin v O'Brian (1983)">}}
+{{<spoiler text="McLoughlin v O'Brian (1983)">}}
 
 - **Context:** Mrs McLoughlin’s husband and three children were involved in a car accident at 4pm. At 6pm, she was informed of the accident and rushed to the hospital. Upon hearing that her youngest daughter was dead and seeing her husband’s condition, she suffered psychiatric illness due to depression and change of personality affecting her abilities as a wife and mother. She claimed against the respondent for shock and injury due to their negligence in causing the accident.
 - **Holding:**
@@ -124,11 +124,11 @@ weight: 70
   - Existing law recognises the claims of the first: it denies that of the second, either on the basis that such persons must be assumed to be possessed of fortitude sufficient to enable them to endure the calamities of modern life, or that defendants cannot be expected to compensate the world at large.
   - It should follow that other cases involving less close relationships must be very carefully scrutinised. I cannot say that they should never be admitted. **The closer the tie (not merely in relationship, but in care) the greater the claim for consideration.**
 
-{{</collapse>}}
+{{</spoiler>}}
 
 **Pure Economic Loss:** _Hedley Bryne/Caparo_ factors
 
-{{<collapse summary="Hedley Byrne & Co Ltd v Heller & Partners">}}
+{{<spoiler text="Hedley Byrne & Co Ltd v Heller & Partners">}}
 
 - The skill and expertise of the maker of the statements
 - Whether the maker of the statement knows or ought to know that the other person will rely on the statement
@@ -136,9 +136,9 @@ weight: 70
 - Where the relationship between the maker of the statement and the recipient is akin to contract, a duty of care is likely to arise
 - Payment for information or advice is very good evidence that the advice is being relied on… material to consider whether the adviser is acting purely out of good nature or whether he is getting his reward in some indirect form
 
-{{</collapse>}}
+{{</spoiler>}}
 
-{{<collapse summary="Caparo Industries vs Dickman">}}
+{{<spoiler text="Caparo Industries vs Dickman">}}
 
 - **Holding:** No duty of care owed to members of the public in general, in respect of the defendant’s negligent misstatements concerning the audited accounts of the company. No duty of care owed by the auditors of a company to individual members of the public at large who rely on the information to buy shares in the company.
 - **Factors**
@@ -147,7 +147,7 @@ weight: 70
   - The adviser knows or ought to know that his or her advice will be acted upon by the plaintiff without independent inquiry
   - The advice was acted upon by the plaintiff to his or her detriment
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ## 3.3 Policy Considerations
 
@@ -165,12 +165,12 @@ Establishing a duty of care is the first step, but not sufficient to create liab
 
 **General Rule:** Standard of care is standard of reasonable person using ordinary care and skill.
 
-{{<collapse summary="_Nettleship v Weston_ (1971)">}}
+{{<spoiler text="_Nettleship v Weston_ (1971)">}}
 
 - **Context:** Mr Nettleship, an experienced driver, agreed to give a friend's wife, Mrs Weston, some driving lessons in her husband's car. Mrs Weston took up a provisional driving licence. On one occasion, Mrs Weston failed to straighten out after turning left, and panicked. Despite the fact that the car was moving at walking pace and Mr Nettleship’s efforts to straighten out, it mounted the kerb and struck a lamp standard. Mr Nettleship fractured his knee. Mrs Weston argued that the standard of care should be lowered for learner drivers.
 - **Holding:** A learner driver is expected to meet the same standard as a reasonable qualified competent driver.
 
-{{</collapse>}}
+{{</spoiler>}}
 
 ## 4.1 Factors Determining Standard of Care
 
@@ -190,13 +190,13 @@ Establishing a duty of care is the first step, but not sufficient to create liab
 - training required to perform the task
 - whether the defendant held himself out to be an expert or professional
 
-{{<collapse summary="Philips v William Whiteley Ltd (1938)">}}
+{{<spoiler text="Philips v William Whiteley Ltd (1938)">}}
 A jeweller conducted an ear piercing operation for the pf to wear earrings. Not a doctor and did not hold himself out to be a surgeon or expert. Held that the standard of care expected of him was that of a jeweller and not a doctor conducting a surgical operation.
-{{</collapse>}}
+{{</spoiler>}}
 
-{{<collapse summary="OCBC Securities Pte Ltd v Yeo Siew Huan (1998)">}}
+{{<spoiler text="OCBC Securities Pte Ltd v Yeo Siew Huan (1998)">}}
 Held that strong expert evidence would be required to prove negligence on the part of the stockbroker giving advice, in cases of market unpredictability or uncertainty as in such cases, inherent risks of the advice turning out to be wrong would be great, unless the advice was one which **no reasonable stockbroker would give**.
-{{</collapse>}}
+{{</spoiler>}}
 
 # 5 Causation and Remoteness
 
