@@ -1,0 +1,357 @@
+{
+	"latex": {
+		"prefix": "la",
+		"body": "$$${0}$$",
+		"description": "Latex block"
+	},
+	"latex_inline": {
+		"prefix": "li",
+		"body": "$${0}$",
+		"description": "Inline Latex block"
+	},
+	"bb": {
+		"prefix": "mbb",
+		"body": "\\mathbb{$1}$0",
+		"description": "mathbb"
+	},
+	"cal": {
+		"prefix": "cal",
+		"body": "\\mathcal{$1}$0",
+		"description": "mathcal"
+	},
+	"alpha": {
+		"prefix": "aa",
+		"body": "\\alpha",
+		"description": "alpha"
+	},
+	"Alpha": {
+		"prefix": "AA",
+		"body": "\\Alpha",
+		"description": "Alpha"
+	},
+	"beta": {
+		"prefix": "bb",
+		"body": "\\beta",
+		"description": "beta"
+	},
+	"Beta": {
+		"prefix": "BB",
+		"body": "\\Beta",
+		"description": "Beta"
+	},
+	"gamma": {
+		"prefix": "gg",
+		"body": "\\gamma",
+		"description": "gamma"
+	},
+	"Gamma": {
+		"prefix": "GG",
+		"body": "\\Gamma",
+		"description": "Gamma"
+	},
+	"delta": {
+		"prefix": "dd",
+		"body": "\\delta",
+		"description": "delta"
+	},
+	"Delta": {
+		"prefix": "DD",
+		"body": "\\Delta",
+		"description": "Delta"
+	},
+	"epsilon": {
+		"prefix": "ee",
+		"body": "\\varepsilon",
+		"description": "epsilon"
+	},
+	"zeta": {
+		"prefix": "zz",
+		"body": "\\zeta",
+		"description": "zeta"
+	},
+	"eta": {
+		"prefix": "hh",
+		"body": "\\eta",
+		"description": "eta"
+	},
+	"theta": {
+		"prefix": "tt",
+		"body": "\\theta",
+		"description": "theta"
+	},
+	"Theta": {
+		"prefix": "tt",
+		"body": "\\Theta",
+		"description": "Theta"
+	},
+	"kappa": {
+		"prefix": "kk",
+		"body": "\\kappa",
+		"description": "kappa"
+	},
+	"lambda": {
+		"prefix": "ll",
+		"body": "\\lambda",
+		"description": "lambda"
+	},
+	"Lambda": {
+		"prefix": "LL",
+		"body": "\\Lambda",
+		"description": "Lambda"
+	},
+	"mu": {
+		"prefix": "mm",
+		"body": "\\mu",
+		"description": "mu"
+	},
+	"nu": {
+		"prefix": "nn",
+		"body": "\\nu",
+		"description": "nu"
+	},
+	"xi": {
+		"prefix": "xi",
+		"body": "\\xi",
+		"description": "xi"
+	},
+	"pi": {
+		"prefix": "pi",
+		"body": "\\pi",
+		"description": "pi"
+	},
+	"Pi": {
+		"prefix": "Pi",
+		"body": "\\Pi",
+		"description": "Pi"
+	},
+	"sigma": {
+		"prefix": "ss",
+		"body": "\\sigma",
+		"description": "sigma"
+	},
+	"Sigma": {
+		"prefix": "SS",
+		"body": "\\Sigma",
+		"description": "Sigma"
+	},
+	"tau": {
+		"prefix": "tt",
+		"body": "\\tau",
+		"description": "tau"
+	},
+	"upsilon": {
+		"prefix": "uu",
+		"body": "\\upsilon",
+		"description": "upsilon"
+	},
+	"phi": {
+		"prefix": "pp",
+		"body": "\\phi",
+		"description": "phi"
+	},
+	"Phi": {
+		"prefix": "PP",
+		"body": "\\Phi",
+		"description": "Phi"
+	},
+	"chi": {
+		"prefix": "xx",
+		"body": "\\chi",
+		"description": "chi"
+	},
+	"psi": {
+		"prefix": "yy",
+		"body": "\\psi",
+		"description": "psi"
+	},
+	"Psi": {
+		"prefix": "YY",
+		"body": "\\Psi",
+		"description": "Psi"
+	},
+	"omega": {
+		"prefix": "ww",
+		"body": "\\omega",
+		"description": "omega"
+	},
+	"Omega": {
+		"prefix": "WW",
+		"body": "\\Omega",
+		"description": "Omega"
+	},
+	"rightarrow": {
+		"prefix": "->",
+		"body": "\\rightarrow",
+		"description": "rightarrow"
+	},
+	"Rightarrow": {
+		"prefix": "=>",
+		"body": "\\Rightarrow",
+		"description": "Rightarrow"
+	},
+	"Leftrightarrow": {
+		"prefix": "<=>",
+		"body": "\\Leftrightarrow",
+		"description": "Leftrightarrow"
+	},
+	"mapsto": {
+		"prefix": "-->",
+		"body": "\\mapsto",
+		"description": "mapsto"
+	},
+	"infty": {
+		"prefix": "inf",
+		"body": "\\infty",
+		"description": "infty"
+	},
+	"forall": {
+		"prefix": "fa",
+		"body": "\\forall",
+		"description": "forall"
+	},
+	"exists": {
+		"prefix": "ex",
+		"body": "\\exists",
+		"description": "exists"
+	},
+	"emptyset": {
+		"prefix": "emp",
+		"body": "\\emptyset",
+		"description": "emptyset"
+	},
+	"times": {
+		"prefix": "**",
+		"body": "\\times",
+		"description": "times"
+	},
+	"div": {
+		"prefix": "//",
+		"body": "\\div",
+		"description": "div"
+	},
+	"real": {
+		"prefix": "real",
+		"body": "\\mathbb{R}",
+		"description": "real"
+	},
+	"equiv": {
+		"prefix": "==",
+		"body": "\\equiv",
+		"description": "equiv symbol"
+	},
+	"subscript": {
+		"prefix": "__",
+		"body": "_{$1}$0",
+		"description": "subscript"
+	},
+	"superscript": {
+		"prefix": "^^",
+		"body": "^{$1}$0",
+		"description": "superscript"
+	},
+	"etc": {
+		"prefix": "...",
+		"body": "\\dots",
+		"description": "\\dots"
+	},
+	"cdot": {
+		"prefix": "..",
+		"body": "\\cdot",
+		"description": "\\cdot"
+	},
+	"partial": {
+		"prefix": "6",
+		"body": "\\partial",
+		"description": "partial derivative symbol"
+	},
+	"fraction": {
+		"prefix": "///",
+		"body": "\\frac{$1}{$2}$0",
+		"description": "fraction"
+	},
+	"hat": {
+		"prefix": "hat",
+		"body": "\\Hat{${1:${TM_SELECTED_TEXT}}}$0",
+		"description": "hat"
+	},
+	"bar": {
+		"prefix": "bar",
+		"body": "\\bar{${1:${TM_SELECTED_TEXT}}}$0",
+		"description": "bar"
+	},
+	"leq": {
+		"prefix": "<=",
+		"body": "\\leq",
+		"description": "leq symbol"
+	},
+	"geq": {
+		"prefix": ">=",
+		"body": "\\geq",
+		"description": "geq symbol"
+	},
+	"neq": {
+		"prefix": "!=",
+		"body": "\\neq",
+		"description": "neq"
+	},
+	"sqrt": {
+		"prefix": "root",
+		"body": "\\sqrt{${1:${TM_SELECTED_TEXT}}}$0",
+		"description": "sqrt command"
+	},
+	"in": {
+		"prefix": "in",
+		"body": "\\in",
+		"description": "in"
+	},
+	"notin": {
+		"prefix": "nin",
+		"body": "\\notin",
+		"description": "notin"
+	},
+	"perp": {
+		"prefix": "perp",
+		"body": "\\perp",
+		"description": "perp"
+	},
+	"subset": {
+		"prefix": "sub",
+		"body": "\\subset",
+		"description": "subset"
+	},
+	"bigcup": {
+		"prefix": "bcup",
+		"body": "\\bigcup",
+		"description": "bigcup"
+	},
+	"bigcap": {
+		"prefix": "bcap",
+		"body": "\\bigcap",
+		"description": "bigcap"
+	},
+	"equation": {
+		"prefix": "eq",
+		"body": "\\begin{equation}\n\t${0}\n\\end{equation}",
+		"description": "equation environment"
+	},
+	"equation*": {
+		"prefix": "eqn",
+		"body": "\\begin{equation*}\n\t${0}\n\\end{equation*}",
+		"description": "equation* environment"
+	},
+	"align": {
+		"prefix": "al",
+		"body": "\\begin{align}\n\t${0}\n\\end{align}",
+		"description": "align environment"
+	},
+	"align*": {
+		"prefix": "aln",
+		"body": "\\begin{align*}\n\t${0}\n\\end{align*}",
+		"description": "align* environment"
+	},
+	"begin": {
+		"prefix": "beg",
+		"body": "\\begin{$1}\n\t${0}\n\\end{$1}",
+		"description": "begin environment"
+	},
+}

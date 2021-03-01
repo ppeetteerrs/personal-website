@@ -5,6 +5,8 @@
 		}
 	],
 	"settings": {
-		"markdown.extension.preview.autoShowPreviewToSide": false
+		"files.associations": {
+			"*.md": "latex"
+		}
 	}
 }

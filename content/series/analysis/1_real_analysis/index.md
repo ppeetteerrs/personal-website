@@ -1,11 +1,12 @@
 ---
-title: Analysis – Real Analysis (Part 1)
+title: The Natural Numbers (Part 1)
 date: 2020-10-24
 categories:
   - Maths
 tags:
   - maths
   - real analysis
+  - natural numbers
 type: book
 weight: 10
 ---
