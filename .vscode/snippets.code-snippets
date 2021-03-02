@@ -1,7 +1,27 @@
 {
+	"borel": {
+		"prefix": "borel",
+		"body": "\\mathcal{B}",
+		"description": "Borel"
+	},
+	"prod": {
+		"prefix": "prod",
+		"body": "\\prod",
+		"description": "Product"
+	},
+	"sum": {
+		"prefix": "sum",
+		"body": "\\sum",
+		"description": "Summation"
+	},
+	"item": {
+		"prefix": "item",
+		"body": "**$1**:$0",
+		"description": "Item"
+	},
 	"set": {
 		"prefix": "set",
-		"body": "\\set{$1}$0",
+		"body": "\\\\\\{ $0 \\\\\\\\} ",
 		"description": "Set"
 	},
 	"space": {
@@ -204,8 +224,8 @@
 		"body": "\\Omega",
 		"description": "Omega"
 	},
-	"rightarrow": {
-		"prefix": "rightarrow",
+	"to": {
+		"prefix": "to",
 		"body": "\\rightarrow",
 		"description": "rightarrow"
 	},
@@ -231,12 +251,12 @@
 	},
 	"forall": {
 		"prefix": "fa",
-		"body": "\\forall",
+		"body": "\\\\\\; \\forall \\\\\\; ",
 		"description": "forall"
 	},
 	"exists": {
 		"prefix": "ex",
-		"body": "\\exists",
+		"body": "\\\\\\;  \\exists \\\\\\; ",
 		"description": "exists"
 	},
 	"emptyset": {
@@ -345,14 +365,29 @@
 		"description": "subset"
 	},
 	"bigcup": {
-		"prefix": "bcup",
+		"prefix": "Union",
 		"body": "\\bigcup",
 		"description": "bigcup"
 	},
 	"bigcap": {
-		"prefix": "bcap",
+		"prefix": "Intersect",
 		"body": "\\bigcap",
 		"description": "bigcap"
+	},
+	"setminus": {
+		"prefix": "diff",
+		"body": "\\setminus",
+		"description": "setminus"
+	},
+	"cup": {
+		"prefix": "union",
+		"body": "\\cup",
+		"description": "cup"
+	},
+	"cap": {
+		"prefix": "intersect",
+		"body": "\\cap",
+		"description": "cap"
 	},
 	"equation": {
 		"prefix": "eq",

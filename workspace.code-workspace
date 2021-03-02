@@ -14,7 +14,8 @@
 				"other": true,
 				"comments": true,
 				"strings": true
-			}
+			},
+			"editor.suggest.snippetsPreventQuickSuggestions": false
 		}
 	}
 }
