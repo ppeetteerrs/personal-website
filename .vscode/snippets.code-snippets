@@ -1,4 +1,9 @@
 {
+	"st": {
+		"prefix": "st",
+		"body": "\\text{ such that }$0",
+		"description": "such that"
+	},
 	"borel": {
 		"prefix": "borel",
 		"body": "\\mathcal{B}",
@@ -46,12 +51,12 @@
 	},
 	"latex": {
 		"prefix": "la",
-		"body": "$$${0}$$",
+		"body": "$$ $1 $$$0",
 		"description": "Latex block"
 	},
 	"latex_inline": {
 		"prefix": "li",
-		"body": "$${0}$",
+		"body": "$ $1 $$0",
 		"description": "Inline Latex block"
 	},
 	"bb": {

@@ -5,17 +5,11 @@
 		}
 	],
 	"settings": {
-		"files.associations": {
-			// "*.md": "latex"
-		},
 		"[markdown]": {
 			"editor.wordWrap": "on",
-			"editor.quickSuggestions": {
-				"other": true,
-				"comments": true,
-				"strings": true
-			},
-			"editor.suggest.snippetsPreventQuickSuggestions": false
+			"editor.quickSuggestions": true,
+			"editor.suggest.snippetsPreventQuickSuggestions": false,
+			"editor.acceptSuggestionOnEnter": "off"
 		}
 	}
 }
