@@ -5,7 +5,7 @@ linktitle: Course
 
 summary: Financial Mathematics
 
-date: 2021-03-08
+date: 2021-03-11
 
 type: book
 

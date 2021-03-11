@@ -15,7 +15,7 @@ weight: 50
 
 # 1 Introduction
 
-The content of this part is based on [Martingale Theory Notes](https://people.maths.bris.ac.uk/~mb13434/mart_thy_notes.pdf).
+The content of this part is based on [Martingale Theory Notes](https://people.maths.bris.ac.uk/~mb13434/mart_thy_notes.pdf). Personally, I recommend reading until part 7. I have not fully digested the contents from part 8 - 10 (as in the meaning / significance of the theorems).
 
 # 2 Conditional Expectation
 
@@ -174,6 +174,68 @@ Then $ \mathbb{E}(T) \leq \infty $
 
 {{</aside>}}
 
+# 8 Martingale Convergence
 
-- upcrossing inequality
-- martingale convergence
+{{<aside title="Upcrossing Number till \notin" type="blue">}}
+$$ U_N[a,b] := max \\{ k: \\;  \exists \\; 0 \leq s_1 < t_1 < ... < s_k < t_k \leq N \text{ with } X_{s_i} < a, X_{t_i} \\; \forall \\; 1 \leq i \leq k \\} $$
+
+Intuitively, it counts the number of times the process increases from below level $ a $ to above level $ b $ before time $ N $.
+{{</aside>}}
+
+{{<aside title="Doob's Upcrossing Lemma" type="blue">}}
+If $ X_n $ is a supermartingale,
+$$ (b-a)\mathbb{E}U_N[a,b] \leq \mathbb{E}(X_N - a)^- $$
+
+where $ X^- $ equals $ -min(X,0) $
+{{</aside>}}
+
+{{<aside title="Doob's Forward Convergence Therorem" type="blue">}}
+If $ X_n $ is a supermartingale bounded in $ L^1 $,
+
+$ X_{\infty} := \lim_n X_n $ exists a.s. and is finite
+
+Note that if $ X_n $ is non-negative, $ L^1 $ boundedness is automatic ($ \mathbb{E}|X_n| \leq \mathbb{E}X_0 $).
+{{</aside>}}
+
+Sometimes we denote $ \langle X,Y \rangle := \mathbb{E}(XY) $
+
+{{<aside title="$ L^2 $ Convergence" type="blue">}}
+An $ L^2 $ martingale $ M_n $ is bounded in $ L^2 $ if and only if $ \sum \limits_{k=1}^{\infty} \mathbb{E}(M_k-M_{k-1})^2 < \infty $. In this case $ M_n \rightarrow M_{\infty} $ a.s. and in $ L^2 $.
+{{</aside>}}
+
+# 9 Uniformly Integrable Martingales
+If $ M_n $ is uniformly integrable martingale, then $ M_{\infty} $ exists a.s. and in $ L^1 $ and $ M_n = \mathbb{E}(M_{\infty}|\mathcal{F}_n) $ a.s.
+
+{{<aside title="Lévy's Upwards Theorem" type="blue">}}
+Let $ \xi \in L^1 $, $ (\mathcal{F}_n)_n $ be a filtration and $ M_n := \mathbb{E}(\xi | \mathcal{F}_n) $,
+
+$ M_n $ is uniformly integrable martingale, $ M_n $ converges a.s. and in $ L^1 $ to a limit $ M_{\infty} $
+{{</aside>}}
+
+For independent r.v. where $ \tau_n := \sigma(X_{n+1},...) $, the tail σ-algebra is
+
+$$ \tau := \\bigcap_n \tau_n $$
+
+{{<aside title="Kolmogorov's 0-1 Law" type="blue">}}
+The tail σ-algebra of independent r.v. is trivial,
+
+$$ P(F) = 0 \text{ or } 1 \\; \forall \\; F \in \tau $$
+{{</aside>}}
+
+
+{{<aside title="Lévy's Downward Theorem" type="blue">}}
+Let $\mathcal{G}\_{-n}, n \geq 1$ be σ-algebras with 
+$ \mathcal{G}\_{-n} \subseteq ... \subseteq \mathcal{G}\_{-1} $ and $ \mathcal{G}\_{-\infty} := \bigcap_{n=1}^{\infty} \mathcal{G}\_{-n} $.
+
+Let $ \gamma \in L^1 $ and $ M_{-n} := \mathbb{E}(\gamma|\mathcal{G}_{-n}) $, then
+
+$ M_{-\infty} := \lim_{n \rightarrow \infty} M_{-n} $ exists a.s. and in $ L^1 $ and $ M_{-\infty} = \mathbb{E}(\gamma|\mathcal{G}_{-\infty}) $ a.s.
+
+{{</aside>}}
+
+# 10 Doob's Submartingale Inequality
+{{<aside title="Doob's Submartingale Inequality" type="blue">}}
+Let $ Z_n \geq 0 $ be a submartingale, then $ \\; \forall \\; c \in \mathbb{R} > 0, n \in \mathbb{Z} > 0 $,
+
+$$ c \cdot P \\{ \sup_{k \leq n} Z_k \geq c \\} \leq \mathbb{E}(Z_n; \sup_{k \leq n} Z_k \geq c) \leq \mathbb{E}Z_n $$
+{{</aside>}}
