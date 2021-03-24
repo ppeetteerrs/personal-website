@@ -49,6 +49,11 @@
 		"body": "{{<aside title=\"$1\" type=\"${2:blue}\">}}\n$0\n{{</aside>}}",
 		"description": "Aside block"
 	},
+	"stl": {
+		"prefix": "stl",
+		"body": "{{<stl file=\"$1\" colour=\"${2:0x33d6ff}\">}}\n$0 [download]($1.stl)\n{{</stl>}}",
+		"description": "STL block"
+	},
 	"latex": {
 		"prefix": "la",
 		"body": "$$ $1 $$$0",

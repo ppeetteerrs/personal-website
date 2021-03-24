@@ -1,0 +1,11 @@
+<figure id='{{.Get "file"}}' style="width: 100%; height: 500px"></figure>
+<figcaption>{{ .Inner | markdownify | emojify }}</figcaption>
+<script type="text/javascript">
+  window.onload = function () {
+    STLViewer(
+      '{{.Get "file"}}.stl',
+      '{{.Get "file"}}',
+      '{{.Get "colour" | default "0x33d6ff"}}'
+    );
+  };
+</script>

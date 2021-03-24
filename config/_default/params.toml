@@ -80,7 +80,7 @@ link_authors = false
 
 abstract_length = 135
 
-plugins_js = []
+plugins_js = ["three", "orbit", "stl_loader", "stl"]
 
 [avatar]
 gravatar = false
