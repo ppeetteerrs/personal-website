@@ -19,6 +19,3 @@ weight: 10
 
 ## 1.1 Ubuntu runtime
 
-{{<stl file="pcb" colour="0x33d6ff">}}
- ([download](pcb.stl))
-{{</stl>}}

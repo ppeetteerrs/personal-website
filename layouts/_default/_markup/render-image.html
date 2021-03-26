@@ -26,7 +26,7 @@
 <a data-fancybox="" href="{{$image_src}}" {{ with .Text }}data-caption="{{ .|markdownify|emojify|safeHTMLAttr }}"{{ end }}>
 
 
-<img data-src="{{$image_src}}" class="lazyload" alt="{{ with .Text }}{{.}}{{end}}">
+<img src="{{$image_src}}" data-src="{{$image_src}}" class="lazyload" alt="{{ with .Text }}{{.}}{{end}}">
 
 </a>
 

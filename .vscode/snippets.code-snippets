@@ -1,4 +1,9 @@
 {
+	"dollar": {
+		"prefix": "\\$",
+		"body": "<span>$</span>",
+		"description": "dollar sign"
+	},
 	"st": {
 		"prefix": "st",
 		"body": "\\text{ such that }$0",
