@@ -2,21 +2,11 @@
     "version": "2.0.0",
     "tasks": [
       {
-        "label": "Git Pull",
-        "type": "shell",
-        "command": "git pull",
-        "presentation": {
-          "reveal": "always",
-          "panel": "shared"
-        },
-        "runOptions": { "runOn": "folderOpen" }
-      },
-      {
         "label": "Build Server",
         "type": "shell",
-        "command": "hugo server",
+        "command": "git pull && hugo server",
         "presentation": {
-          "reveal": "always",
+          "reveal": "silent",
           "panel": "shared"
         },
         "runOptions": { "runOn": "folderOpen" }
