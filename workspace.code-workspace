@@ -1,6 +1,19 @@
 {
 	"folders": [
 		{
+			"name": "series",
+			"path": "content/series"
+		},
+		{
+			"name": "post",
+			"path": "content/post"
+		},
+		{
+			"name": "blog",
+			"path": "content/blog"
+		},
+		{
+			"name": "home",
 			"path": "."
 		}
 	],
@@ -9,7 +22,7 @@
 			"editor.wordWrap": "on",
 			"editor.quickSuggestions": true,
 			"editor.suggest.snippetsPreventQuickSuggestions": false,
-			"editor.acceptSuggestionOnEnter": "off"
-		}
+			"editor.acceptSuggestionOnEnter": "off",
+		},
 	}
 }
