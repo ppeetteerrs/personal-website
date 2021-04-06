@@ -47,3 +47,5 @@ As such, your friend's expected utility stays at $ U_1 $. However, for you, your
 We can see that for poor people (at the low and steep end of the curve), they have very low risk tolerance (i.e. they utility drops whenever they are below a certain Sharpe ratio). However, for arbitrage, the Sharpe ratio is $ \infty $ and hence everyone can increase their utility this way.
 
 On the other hand, rich people or institutions at the flat end (assume horizontal) of the curve are effectively risk-neutral. They don't really care if they lose 
+
+http://pi.math.cornell.edu/~mec/Summer2008/spulido/fftap.html
