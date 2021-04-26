@@ -9,10 +9,6 @@
 			"path": "content/post"
 		},
 		{
-			"name": "blog",
-			"path": "content/blog"
-		},
-		{
 			"name": "home",
 			"path": "."
 		}
