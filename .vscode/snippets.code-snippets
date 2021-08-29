@@ -49,6 +49,26 @@
 		"body": "{{<spoiler text=\"$1\">}}\n$0\n{{</spoiler>}}",
 		"description": "Spoiler block"
 	},
+	"concept": {
+		"prefix": "concept",
+		"body": "{{<aside title=\"Concept: $1\" type=\"${2:blue}\">}}\n$0\n{{</aside>}}",
+		"description": "Concept block"
+	},
+	"result": {
+		"prefix": "result",
+		"body": "{{<aside title=\"Result: $1\" type=\"${2:purple}\">}}\n$0\n{{</aside>}}",
+		"description": "Result block"
+	},
+	"intuition": {
+		"prefix": "intuition",
+		"body": "{{<aside title=\"Intuition: $1\" type=\"${2:green}\">}}\n$0\n{{</aside>}}",
+		"description": "Intuition block"
+	},
+	"note": {
+		"prefix": "note",
+		"body": "{{<aside title=\"Side Note: $1\" type=\"${2:grey}\">}}\n$0\n{{</aside>}}",
+		"description": "Note block"
+	},
 	"aside": {
 		"prefix": "aside",
 		"body": "{{<aside title=\"$1\" type=\"${2:blue}\">}}\n$0\n{{</aside>}}",

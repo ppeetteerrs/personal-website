@@ -1,5 +1,5 @@
 ---
-title: Abstract Measure Spaces (Part 2)
+title: Part 2 - Abstract Measure Spaces
 date: 2021-02-18
 categories:
   - Maths

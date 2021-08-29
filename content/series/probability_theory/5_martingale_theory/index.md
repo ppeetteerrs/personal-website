@@ -1,5 +1,5 @@
 ---
-title: Martingale Theory (Part 5)
+title: Part 5 - Martingale Theory
 date: 2021-03-09
 categories:
   - Maths

@@ -1,7 +1,7 @@
 ---
 title: Introduction (Part 1)
 date: 2021-03-25
-summary: Some background knowledge.
+summary: Basic concepts and types of securities.
 categories:
   - Quantitative Finance
   - Finance

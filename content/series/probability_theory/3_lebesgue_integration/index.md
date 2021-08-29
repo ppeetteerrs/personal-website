@@ -1,5 +1,5 @@
 ---
-title: Lebesgue Integration (Part 3)
+title: Part 3 - Lebesgue Integration
 date: 2021-03-04
 categories:
   - Maths

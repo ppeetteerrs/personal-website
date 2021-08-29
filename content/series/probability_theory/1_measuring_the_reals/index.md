@@ -1,5 +1,5 @@
 ---
-title: Measuring the Reals (Part 1)
+title: Part 1 - Measuring the Real Numbers
 date: 2021-02-18
 categories:
   - Maths
@@ -15,19 +15,15 @@ weight: 10
 
 # 1 Introduction
 
-> We focus on the thought process behind the foundation of Measure and Probability Theory. Refer to books for boring proves.
-
-Probability Theory is built upon the results of Measure Theory. Before we learn about Probability Theory, it is important to review the important results from Measure Theory.
-
-Please read **Terence Tao - Analysis II (Chapter 7)** for examples and proves.
+Probability Theory is built upon the results of Measure Theory, which is the study of assigning sizes to sets. Before we learn about Probability Theory, it is important to review the important results from Measure Theory. For those who are interested in more examples and rigorous proves, refer to **Terence Tao - Analysis II (Chapter 7)**.
 
 # 2 The Measure Problem
 
-> If we don't drop the Axiom of Choice, no "well-behaved" (i.e. countably additive) measure can be defined on the power set of the reals.
+> Given the Axiom of Choice, no measure can be defined on the power set (all possible subsets) of the reals.
 
-Measure Theory was developed to solve the measure problem, which is to measure the "size" of every general (even pathological) subset of $\mathbb{R}^d$.
+Measure Theory was developed to solve the measure problem, which is to measure the "size" of every general (even pathological) subset of the reals $\mathbb{R}^d$. It has been proven that, with the Axiom of Choice, it is not possible to define a measure for every possible subset of the reals. As such, mathematicians have decided to restrict their attention to "measurable sets" and study their properties. As such, whenever we talk about Measure Theory, Probability Theory or Statistics, the **Axiom of Choice** is literally **out of the picture**.
 
-Before the search for the correct definition of this "measure", we begin with our **intuitive understanding** of what a measure on the reals should be:
+Before delving deeper, let's begin by defining what a "measure" is according to our human intuition:
 
 {{<aside title="Desired Properties of a Measure for $\mathbb{R}^d$" type="blue">}}
 
@@ -39,22 +35,22 @@ Before the search for the correct definition of this "measure", we begin with ou
 
 {{</aside>}}
 
-Given these desired properties, it is possible to prove that (given the Axiom of Choice) there is **no such measure defined for $2^{\mathbb{R}^d}$**. Since mainstream mathematicians have decided not to ditch the Axiom of Choice, there is a need to find a measure on the reals that satisfies the above properties and subsequently **restrict our analysis to sets "measurable" by this measure**.
+Having defined the desired properties of a measure, we now proceed to finding a measure for the reals which can measure as many subsets of the reals as possible.
 
 # 3 Pre-measure and Outer Measure
 
 ## 3.1 Elementary Measure
 
-> Start with something that we know for sure.
+> Start with something that we know for sure. 
 
-Certainly, it is **difficult** for the weak human mind to directly come up with a **general definition of measure** for every set not constructed through the Axiom of Choice. However, we certainly can start with something that we know: measuring the volume of an n-dimensional box.
+A sensible starting point to developing our notion of a general measure of size is to start with something that we know for sure: measuring the size of a n-dimensional box.
 
 {{<aside title="Volume of an Open Box" type="grey">}}
 - **Open box**: $B = \prod  \limits_{i=1}^{n} (a_i, b_i) := \\{ (x_1, ..., x_n ) \in \mathbb{R}^n : x_i \in (a_i, b_i)\\; \forall \\; 1 \leq i \leq n\\}$ where $b_i \geq a_i$
 - **Volume**: $vol(B) := \prod \limits_{i=1}^{n} (b_i - a_i)$
 {{</aside>}}
 
-Once we can measure boxes, we do something more intelligent: measure things that are made up of non-overlapping boxes.
+With the definition for the volume of a box, we can also measure the volume of objects which can be split up into a finite number of disjoint boxes:
 
 {{<aside title="Elementary Measure" type="grey">}}
 - **Elementary Set**: can be expressed as finite union of disjoint boxes
@@ -65,18 +61,19 @@ In the next posts, we will understand that the elementary measure is a pre-measu
 
 ## 3.2 Lebesgue Outer Measure
 
-> We can cover every possible set with elemental sets to get an "outer" measure.
+> We can cover every possible set with elemental sets to get an outer measure.
 
 Given the elementary measure, we can approximate the **"outer" volume of an arbitrary set** by covering it with countably many elementary boxes.
+
 {{<aside title="Lebesgue Outer Measure" type="blue">}}
 $$\mu^*(E) := \inf \\{ \sum \limits_{j \in J} \mu_0(B_j) : (B_j)_{j \in J} \text{ covers } E \text{; J at most countable} \\} $$
 {{</aside>}}
 
 *Note that the Lebesgue outer measure can be infinity because the sum of countable finite numbers can be infinity.*
 
-The outer measure is close to our desired measure, but it is unfortunately not additive (see Book Chapter 7.3).
+The outer measure is close to our desired measure, but it is unfortunately not countably additive yet (see Book Chapter 7.3).
 
-{{<aside title="Properties of Lebesgue Outer Measure (who cares)" type="grey">}}
+{{<aside title="Note: Properties of Lebesgue Outer Measure" type="grey">}}
 - **Positivity**: $0 \leq \mu^*(E) \leq +\infty \\; \forall \\; E \in \mathbb{R}^d$
 - **Null empty set**: $\mu^*(\emptyset) = 0$
 - **Monotonicity**: $A \subset B \subset \mathbb{R}^n \Rightarrow m*(A) \leq m*(B)$

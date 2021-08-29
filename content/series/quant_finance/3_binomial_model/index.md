@@ -16,14 +16,14 @@ weight: 30
 ---
 
 # 1 Introduction
-In this chapter we will investigate an unsophisticated way of modelling asset price randomness. However, the crucial concepts of hedging and no arbitrage remains. The binomial model is important, in cases where the value has no closed-form solution (e.g. American options /other custom-made derivatives). The binomial model can be thought of as a numerical method for the solution of the Black-Scholes equation.
+In this chapter we will investigate an unsophisticated way of modelling asset price randomness. However, the crucial concepts of hedging and no arbitrage remains. The binomial model is important, in cases where the value has no closed-form solution (e.g. American options / other custom-made derivatives). The binomial model can be thought of as a numerical method for the solution of the Black-Scholes equation.
 
 # 2 Simple Scenario
 Assume now that we have a stock and a call option that expires on the next day. The stock can either rise or fall by a known amount before tomorrow and the interest rates are zero.
 
 ![Simple scenario](2021-03-28-22-04-01.png)
 
-Under this scenario, what should be the value of the call option (**It is not 0.6**)?
+Under this scenario, what should be the value of the call option (**it is not 0.6**)?
 
 To answer that, construct a portfolio that long one option and short half a stock:
 

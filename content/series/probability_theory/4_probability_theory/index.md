@@ -1,5 +1,5 @@
 ---
-title: Basic Probability Theory (Part 4)
+title: Part 4 - Basic Probability Theory
 date: 2021-03-08
 categories:
   - Maths
