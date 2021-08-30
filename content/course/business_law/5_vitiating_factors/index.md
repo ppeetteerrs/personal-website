@@ -2,7 +2,7 @@
 title: Business Law Part 5 – Vitiating Factors
 date: 2020-10-28
 summary: "What are some factors that voids a contract / makes a contract voidable?"
-categories: ["Business"]
+categories: ["Business", "University", "Law"]
 tags: ["business law", "contract law", "lgst101", "smu"]
 type: book
 weight: 50

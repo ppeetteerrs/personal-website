@@ -2,7 +2,7 @@
 title: Business Law Part 3 – Discharge of Contracts
 date: 2020-10-02
 summary: "When is a contract considered discharged?"
-categories: ["Business"]
+categories: ["Business", "University", "Law"]
 tags: ["business law", "contract law", "lgst101", "smu"]
 type: book
 weight: 30

@@ -2,7 +2,7 @@
 title: Business Law Part 8 – Agency
 date: 2020-11-30
 summary: "Who can form a contract on behald of another entity?"
-categories: ["Business"]
+categories: ["Business", "University", "Law"]
 tags: ["business law", "contract law", "lgst101", "smu"]
 type: book
 weight: 80

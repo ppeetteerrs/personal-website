@@ -2,7 +2,7 @@
 title: Business Law Part 4 – Remedies for Breach of Contracts
 date: 2020-10-03
 summary: "How do we determine the suitable remedy when a contract is breached?"
-categories: ["Business"]
+categories: ["Business", "University", "Law"]
 tags: ["business law", "contract law", "lgst101", "smu"]
 type: book
 weight: 40

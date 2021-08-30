@@ -2,7 +2,7 @@
 title: Business Law Part 1 – Contract Formation
 date: 2020-09-30
 summary: "Is a legally binding contract actually formed?"
-categories: ["Business"]
+categories: ["Business", "University", "Law"]
 tags: ["business law", "contract law", "lgst101", "smu"]
 type: book
 weight: 10

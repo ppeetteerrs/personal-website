@@ -2,7 +2,7 @@
 title: Business Law Part 6 – Privity
 date: 2020-11-20
 summary: "How do we deal with third parties in a contract? Can they sue for the damages?"
-categories: ["Business"]
+categories: ["Business", "University", "Law"]
 tags: ["business law", "contract law", "lgst101", "smu"]
 type: book
 weight: 60

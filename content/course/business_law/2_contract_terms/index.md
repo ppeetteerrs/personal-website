@@ -2,7 +2,7 @@
 title: Business Law Part 2 – Terms of Contracts
 date: 2020-10-01
 summary: "What kind of statements serve as terms in a contract?"
-categories: ["Business"]
+categories: ["Business", "University", "Law"]
 tags: ["business law", "contract law", "lgst101", "smu"]
 type: book
 weight: 20

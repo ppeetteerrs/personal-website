@@ -2,7 +2,7 @@
 title: Business Law Part 7 – Negligence
 date: 2020-11-27
 summary: "How do we deal with situations when harm is caused by negligence of a person with a duty to care?"
-categories: ["Business"]
+categories: ["Business", "University", "Law"]
 tags: ["business law", "contract law", "lgst101", "smu"]
 type: book
 weight: 70
