@@ -5,3 +5,5 @@
 resources/
 public/
 bk/
+go.sum
+*Zone.Identifier
