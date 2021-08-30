@@ -1,0 +1,19 @@
+main:
+  - name: 🏠 Home
+    url: "/"
+    weight: 10
+  - name: ⚒️ Projects
+    url: "project/"
+    weight: 20
+  - name: 👨‍🏫 Courses
+    url: "course/"
+    weight: 30
+  - name: 📃 Publications
+    url: "publication/"
+    weight: 40
+  - name: 💬 Posts
+    url: "post/"
+    weight: 50
+  - name: 📁 Archives
+    url: "archives/"
+    weight: 60

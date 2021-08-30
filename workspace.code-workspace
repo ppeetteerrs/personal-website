@@ -1,10 +1,35 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"markdown.extension.preview.autoShowPreviewToSide": false
-	}
+  "folders": [
+    {
+      "name": "content",
+      "path": "./content"
+    },
+    {
+      "name": "home",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "[markdown]": {
+      "editor.wordWrap": "on",
+      "editor.quickSuggestions": true,
+      "editor.suggest.snippetsPreventQuickSuggestions": false,
+      "editor.acceptSuggestionOnEnter": "off",
+    },
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/go.sum": true,
+      "**/LICENSE.md": true,
+      "**/resources": true,
+      "**/jsconfig.json": true,
+      "go.*": true,
+      "netlify.toml": true,
+    },
+    "python.defaultInterpreterPath": "python",
+    "markdown.extension.preview.autoShowPreviewToSide": false
+  },
 }

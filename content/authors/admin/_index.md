@@ -3,10 +3,6 @@ title: Peter Yuen
 superuser: true
 role: A kinda nerdy person
 
-# organizations:
-#   - name: Nanyang Technological Universiry
-#     url: ""
-
 bio: "Someone who knows something about many things but everything about nothing :neutral_face:"
 
 social:
@@ -18,7 +14,7 @@ social:
     link: https://github.com/ppeetteerrs
   - icon: cv
     icon_pack: ai
-    link: files/cv.pdf
+    link: uploads/CV.pdf
 ---
 
 I created this blog post with a passion to share knowledge, in a **structured** and **intuitive** manner. I hope that I can help others learn more **effectively** explaining things in my own words.

@@ -1,0 +1,74 @@
+title: Peter Yuen
+baseurl: https://ppeetteerrsx.com/
+
+defaultContentLanguage: en
+
+summaryLength: 30
+paginate: 10
+
+enableEmoji: true
+enableRobotsTXT: true
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+
+permalinks:
+  event: "/talk/:slug/"
+  tags: "/tag/:slug/"
+  categories: "/category/:slug/"
+  publication_types: "/publication-type/:slug/"
+
+imaging:
+  resampleFilter: lanczos
+  quality: 75
+  anchor: smart
+
+taxonomies:
+  tag: tags
+  category: categories
+  publication_type: publication_types
+  author: authors
+  course: courses
+
+markup:
+  _merge: deep
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+  tableOfContents:
+    startLevel: 1
+    endLevel: 4
+
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: title
+      weight: 60
+    - name: summary
+      weight: 50
+    - name: tags
+      weight: 60
+    - name: categories
+      weight: 60
+    - name: series
+      weight: 70
+    - name: authors
+      weight: 20
+module:
+  imports:
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+
+
+outputs:
+  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  section: [HTML, RSS]

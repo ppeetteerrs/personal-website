@@ -1,0 +1,104 @@
+theme: minimal
+day_night: true
+font: "custom"
+font_size: L
+
+# SEO
+site_type: Person
+description: "Peter Yuen Ho Hin's Personal Blog"
+email: "ppeetteerrsx@gmail.com"
+
+search:
+  provider: wowchemy
+  wowchemy:
+    min_length: 1
+    threshold: 0.3 
+    
+# Site header
+main_menu:
+  enable: true
+  align: r
+  show_logo: true
+  show_language: false
+  show_day_night: true
+  show_search: true
+  highlight_active_link: true
+
+# Localization
+date_format: "2 Jan 2006"
+time_format: "3:04 PM"
+
+# Site features
+highlight: true
+highlight_languages:
+  - r
+  - go
+  - diff
+  - ocaml
+  - dart
+  - cpp
+  - dts
+  - bash
+  - arduino
+  - avrasm
+  - cmake
+  - dockerfile
+  - gcode
+  - makefile
+  - matlab
+  - nginx
+  - protobuf
+  - scala
+  - scss
+  - typescript
+  - verilog
+highlight_style: "shades-of-purple"
+math: true
+diagram: false
+privacy_pack: false
+edit_page:
+  repo_url: ""
+  content_dir: ""
+  repo_branch: main
+  editable:
+    page: false
+    post: false
+    book: false
+show_related:
+  book: true
+  page: false
+  post: true
+  project: true
+  publication: true
+  event: true
+reading_time: true
+section_pager: true
+docs_section_pager: true
+sharing: false
+copyright_license:
+  enable: false
+  allow_derivatives: false
+  share_alike: true
+  allow_commercial: false
+  notice: "This work is licensed under {license}"
+abstract_length: 135
+plugins_js: [feelit, orbit, stl_loader, stl]
+avatar:
+  gravatar: false
+  shape: circle
+publications:
+  date_format: January 2006
+  citation_style: apa
+projects:
+  post_view: 1
+  publication_view: 2
+  talk_view: 2
+breadcrumb:
+  page_types:
+    book: true
+cms:
+  branch: master
+  local_backend: false
+icon:
+  pack:
+    ai: true

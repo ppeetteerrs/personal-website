@@ -1,0 +1,319 @@
+$code-info-color: #9c9c9c !default;
+$code-info-color-dark: #b1b0b0 !default;
+
+// Code type map
+$code-type-map: (
+	// Custom code type
+	language-bash: "Bash",
+	language-c: "C",
+	language-cs: "C#",
+	language-cpp: "C++",
+	language-clojure: "Clojure",
+	language-coffeescript: "CoffeeScript",
+	language-css: "CSS",
+	language-dart: "Dart",
+	language-diff: "Diff",
+	language-erlang: "Erlang",
+	language-go: "Go",
+	language-go-html-template: "Go HTML Template",
+	language-groovy: "Groovy",
+	language-haskell: "Haskell",
+	language-html: "HTML",
+	language-http: "HTTP",
+	language-xml: "XML",
+	language-java: "Java",
+	language-js: "JavaScript",
+	language-javascript: "JavaScript",
+	language-json: "JSON",
+	language-kotlin: "Kotlin",
+	language-latex: "LaTeX",
+	language-less: "Less",
+	language-lisp: "Lisp",
+	language-lua: "Lua",
+	language-makefile: "Makefile",
+	language-markdown: "Markdown",
+	language-matlab: "Matlab",
+	language-objectivec: "Objective-C",
+	language-php: "PHP",
+	language-perl: "Perl",
+	language-python: "Python",
+	language-r: "R",
+	language-ruby: "Ruby",
+	language-rust: "Rust",
+	language-scala: "Scala",
+	language-scss: "Scss",
+	language-shell: "Shell",
+	language-sql: "SQL",
+	language-swift: "Swift",
+	language-tex: "TeX",
+	language-toml: "TOML",
+	language-ts: "TypeScript",
+	language-typescript: "TypeScript",
+	language-vue: "Vue",
+	language-yml: "YAML",
+	language-yaml: "YAML"
+) !default;
+
+$MAX_LENGTH: 12000px;
+
+@mixin transition($values...) {
+	-webkit-transition: $values;
+	-moz-transition: $values;
+	-o-transition: $values;
+	transition: $values;
+}
+
+@mixin transform($value) {
+	-webkit-transform: $value;
+	-moz-transform: $value;
+	-ms-transform: $value;
+	-o-transform: $value;
+	transform: $value;
+}
+
+@mixin overflow-wrap($value) {
+	word-wrap: $value;
+	overflow-wrap: $value;
+}
+
+@mixin line-break($value) {
+	-webkit-line-break: $value;
+	-ms-line-break: $value;
+	line-break: $value;
+}
+
+@mixin details-transition-open {
+	@include transition(max-height 0.8s cubic-bezier(0, 1, 0, 1) -0.1s);
+}
+
+@mixin details-transition-close {
+	@include transition(max-height 0.8s cubic-bezier(0.5, 0, 1, 0) 0s);
+}
+
+$admonition-color-map: (
+	"note": #448aff,
+	"abstract": #00b0ff,
+	"info": #00b8d4,
+	"tip": #00bfa5,
+	"success": #00c853,
+	"question": #64dd17,
+	"warning": #ff9100,
+	"failure": #ff5252,
+	"danger": #ff1744,
+	"bug": #f50057,
+	"example": #651fff,
+	"quote": #9e9e9e,
+) !default;
+
+$admonition-background-color-map: (
+	"note": rgba(68, 138, 255, 0.1),
+	"abstract": rgba(0, 176, 255, 0.1),
+	"info": rgba(0, 184, 212, 0.1),
+	"tip": rgba(0, 191, 165, 0.1),
+	"success": rgba(0, 200, 83, 0.1),
+	"question": rgba(100, 221, 23, 0.1),
+	"warning": rgba(255, 145, 0, 0.1),
+	"failure": rgba(255, 82, 82, 0.1),
+	"danger": rgba(255, 23, 68, 0.1),
+	"bug": rgba(245, 0, 87, 0.1),
+	"example": rgba(101, 31, 255, 0.1),
+	"quote": rgba(159, 159, 159, 0.1),
+) !default;
+
+// Admonition Stylse
+.details {
+	.details-summary {
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	i.details-icon {
+		@include transition(transform 0.2s ease);
+	}
+
+	.details-content {
+		max-height: 0;
+		overflow-y: hidden;
+		@include details-transition-open;
+	}
+
+	&.open {
+		i.details-icon {
+			@include transform(rotate(90deg));
+		}
+
+		.details-content {
+			max-height: $MAX_LENGTH;
+			@include details-transition-close;
+		}
+	}
+}
+
+.admonition {
+	position: relative;
+	margin: 1rem 0;
+	padding: 0 0.75rem;
+	background-color: map-get($admonition-background-color-map, "note");
+	border-left: 0.25rem solid map-get($admonition-color-map, "note");
+	overflow: auto;
+
+	.admonition-title {
+		font-weight: bold;
+		margin: 0 -0.75rem;
+		padding: 0.25rem 1.8rem;
+		border-bottom: 1px solid map-get($admonition-background-color-map, "note");
+		background-color: opacify(map-get($admonition-background-color-map, "note"), 0.15);
+	}
+
+	&.open .admonition-title {
+		background-color: map-get($admonition-background-color-map, "note");
+	}
+
+	.admonition-content {
+		padding: 0.5rem 0;
+	}
+
+	i.icon {
+		font-size: 0.85rem;
+		color: map-get($admonition-color-map, "note");
+		position: absolute;
+		top: 0.6rem;
+		left: 0.4rem;
+	}
+
+	i.details-icon {
+		position: absolute;
+		top: 0.6rem;
+		right: 0.3rem;
+	}
+
+	@each $type, $color in $admonition-color-map {
+		&.#{$type} {
+			border-left-color: $color;
+
+			i.icon {
+				color: $color;
+			}
+		}
+	}
+
+	@each $type, $color in $admonition-background-color-map {
+		&.#{$type} {
+			background-color: $color;
+
+			.admonition-title {
+				border-bottom-color: $color;
+				background-color: opacify($color, 0.15);
+			}
+
+			&.open .admonition-title {
+				background-color: $color;
+			}
+		}
+	}
+
+	&:last-child {
+		margin-bottom: 0.75rem;
+	}
+}
+
+// Code Styles
+.highlight {
+	line-height: 1.4em;
+	margin: 0.5rem 0;
+	position: relative;
+
+	.code-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		box-sizing: border-box;
+		width: 100%;
+		font-family: $font-family-base;
+		font-weight: bold;
+		color: $code-info-color;
+		background: darken($sta-background, 10%);
+
+		.dark & {
+			color: $code-info-color-dark;
+			background: lighten($sta-dark-background, 10%);
+		}
+
+		&:hover {
+			cursor: pointer;
+		}
+
+		.code-title {
+			width: 100%;
+			padding: 0.4rem;
+		}
+
+		.code-title::after {
+			padding-left: 0.2rem;
+			content: "Code";
+		}
+
+		@each $type, $text in $code-type-map {
+			&.#{$type} .code-title::after {
+				content: $text;
+			}
+		}
+	}
+
+	.arrow {
+		padding: 0 0.2rem;
+		@include transition(transform 0.2s ease);
+	}
+
+	.ellipses {
+		padding: 0.4rem;
+	}
+
+	.copy {
+		display: none;
+		padding: 0.4rem;
+
+		&:hover {
+			cursor: pointer;
+			color: $link-hover-color;
+
+			.dark & {
+				color: $sta-dark-link-hover;
+			}
+		}
+	}
+
+	.code-wrapper {
+		padding: 0;
+		max-height: 0;
+		overflow-y: hidden;
+		@include details-transition-open;
+	}
+
+	&.open {
+		.code-wrapper {
+			max-height: $MAX_LENGTH;
+			@include details-transition-close;
+		}
+
+		.arrow {
+			@include transform(rotate(90deg));
+		}
+
+		.ellipses {
+			display: none;
+		}
+
+		.copy {
+			display: inline;
+		}
+	}
+}
+
+.typeit {
+	.code {
+		padding: 0.375rem;
+		word-break: break-all;
+	}
+}
