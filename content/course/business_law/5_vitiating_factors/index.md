@@ -1,15 +1,9 @@
 ---
-title: Business Law – Vitiating Factors (Part 5)
+title: Business Law Part 5 – Vitiating Factors
 date: 2020-10-28
-categories:
-  - Business
-  - Courses
-tags:
-  - business law
-  - contract law
-  - courses
-  - lgst101
-  - smu
+summary: "What are some factors that voids a contract / makes a contract voidable?"
+categories: ["Business"]
+tags: ["business law", "contract law", "lgst101", "smu"]
 type: book
 weight: 50
 ---

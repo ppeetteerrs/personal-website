@@ -1,15 +1,9 @@
 ---
-title: Business Law – Privity (Part 6)
-date: 2020-11-27
-categories:
-  - Business
-  - Courses
-tags:
-  - business law
-  - contract law
-  - courses
-  - lgst101
-  - smu
+title: Business Law Part 6 – Privity
+date: 2020-11-20
+summary: "How do we deal with third parties in a contract? Can they sue for the damages?"
+categories: ["Business"]
+tags: ["business law", "contract law", "lgst101", "smu"]
 type: book
 weight: 60
 ---

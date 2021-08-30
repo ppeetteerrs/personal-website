@@ -1,7 +1,7 @@
 ---
-title: Peter Yuen
+title: "Peter Yuen"
 superuser: true
-role: A kinda nerdy person
+role: "<div class='shake-chunk'>A kinda nerdy person</div>"
 
 bio: "Someone who knows something about many things but everything about nothing :neutral_face:"
 

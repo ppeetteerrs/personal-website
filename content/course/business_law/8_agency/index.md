@@ -1,17 +1,11 @@
 ---
-title: Business Law – Agency (Part 8)
-date: 2020-11-27
-categories:
-  - Business
-  - Courses
-tags:
-  - business law
-  - contract law
-  - courses
-  - lgst101
-  - smu
+title: Business Law Part 8 – Agency
+date: 2020-11-30
+summary: "Who can form a contract on behald of another entity?"
+categories: ["Business"]
+tags: ["business law", "contract law", "lgst101", "smu"]
 type: book
-weight: 0
+weight: 80
 ---
 
 # 1 What is Agency?

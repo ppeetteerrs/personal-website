@@ -1,15 +1,9 @@
 ---
-title: Business Law – Contract Formation (Part 1)
+title: Business Law Part 1 – Contract Formation
 date: 2020-09-30
-categories:
-  - Business
-  - Courses
-tags:
-  - business law
-  - contract law
-  - courses
-  - lgst101
-  - smu
+summary: "Is a legally binding contract actually formed?"
+categories: ["Business"]
+tags: ["business law", "contract law", "lgst101", "smu"]
 type: book
 weight: 10
 ---

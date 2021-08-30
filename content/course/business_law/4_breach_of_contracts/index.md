@@ -1,15 +1,9 @@
 ---
-title: Business Law – Remedies for Breach of Contracts (Part 4)
-date: 2020-09-30
-categories:
-  - Business
-  - Courses
-tags:
-  - business law
-  - contract law
-  - courses
-  - lgst101
-  - smu
+title: Business Law Part 4 – Remedies for Breach of Contracts
+date: 2020-10-03
+summary: "How do we determine the suitable remedy when a contract is breached?"
+categories: ["Business"]
+tags: ["business law", "contract law", "lgst101", "smu"]
 type: book
 weight: 40
 ---

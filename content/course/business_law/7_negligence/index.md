@@ -1,15 +1,9 @@
 ---
-title: Business Law – Negligence (Part 7)
+title: Business Law Part 7 – Negligence
 date: 2020-11-27
-categories:
-  - Business
-  - Courses
-tags:
-  - business law
-  - contract law
-  - courses
-  - lgst101
-  - smu
+summary: "How do we deal with situations when harm is caused by negligence of a person with a duty to care?"
+categories: ["Business"]
+tags: ["business law", "contract law", "lgst101", "smu"]
 type: book
 weight: 70
 ---

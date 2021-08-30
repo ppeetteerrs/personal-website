@@ -1,15 +1,9 @@
 ---
-title: Business Law – Terms of Contracts (Part 2)
-date: 2020-09-30
-categories:
-  - Business
-  - Courses
-tags:
-  - business law
-  - contract law
-  - courses
-  - lgst101
-  - smu
+title: Business Law Part 2 – Terms of Contracts
+date: 2020-10-01
+summary: "What kind of statements serve as terms in a contract?"
+categories: ["Business"]
+tags: ["business law", "contract law", "lgst101", "smu"]
 type: book
 weight: 20
 ---
