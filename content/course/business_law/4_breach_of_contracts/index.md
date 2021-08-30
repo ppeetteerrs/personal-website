@@ -30,16 +30,16 @@ When the contract contains a clause that specifies the amount to be paid in case
 
 **Penalty Clauses:** Liquidated damage clauses that the court finds to be "penal". Penalty clauses are unenforceable by the parties.
 
-{{<spoiler text="_Dunlop Pneumatic Tyre Co Ltd v New Garage & Motor Co Ltd_ (1915)">}}
+{{<admonition type="case" title="_Dunlop Pneumatic Tyre Co Ltd v New Garage & Motor Co Ltd_ (1915)">}}
 
 - A liquidated damages clause is a penalty clause if the agreed sum is not a genuine pre-estimate of loss and punitive.
 - Whether a liquidated damages clause is a penalty clause will be decided based on the facts of the case **at the time of the making of the contract**.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ## 3.2 The Dunlop Test
 
-{{<spoiler text="_Dunlop Pneumatic Tyre Co Ltd v New Garage & Motor Co Ltd_ (1915)">}}
+{{<admonition type="case" title="_Dunlop Pneumatic Tyre Co Ltd v New Garage & Motor Co Ltd_ (1915)">}}
 
 - **Presumption:** Liquidated damages clause is penal if single lump sum is payable on occurrence of one or more events (some of which may occasion serious and others trifling damage).
 
@@ -50,18 +50,18 @@ When the contract contains a clause that specifies the amount to be paid in case
 
   - A liquidated damages clause is not to be considered penal just because it is almost impossible to precisely pre-estimate the true loss suffered.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ## 3.3 The Cavendish Test
 
-{{<spoiler text="_Cavendish Square Holding BV v Makdessi; Parkingeye Ltd v Beavis_ (2016)">}}
+{{<admonition type="case" title="_Cavendish Square Holding BV v Makdessi; Parkingeye Ltd v Beavis_ (2016)">}}
 
 - Does the clause impose "a detriment on the contract-breaker out of all proportion to any legitimate interest of the aggrieved party in the enforcement of the primary obligation"
   - **Legitimate Commercial Interests:** First, a court must see whether any (and, if so, what) legitimate commercial interests are served and protected by the clause.
   - **Proportionality:** Secondly, if there are such interests, the court must see whether the provision was extravagant or unconscionable in the circumstances
   - **Bargaining Power:** In negotiated contracts between properly advised parties of comparable bargaining power, the parties themselves are the best judges of what is legitimate in a provision dealing with the consequences of breach. - **iTronic Holdings**
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ## 3.3 Dunlop vs Cavendish in Singapore
 
@@ -102,29 +102,29 @@ Expectation loss is the default mode of quantification of loss unless the aggrie
 
 **Loss of Profits:** Depends on whether loss of profits can be ascertained.
 
-{{<spoiler text="_McRae v Commonwealth Disposals Commission_ (1951)">}}
+{{<admonition type="case" title="_McRae v Commonwealth Disposals Commission_ (1951)">}}
 
 - If the loss of profits can be ascertained, that should determine the amount of damages.
   - If loss of profits cannot be ascertained, the expenses incurred in reliance of the other party’s promise (reliance loss) is recoverable as damages on the rebut-table presumption that if the contract has been properly performed, the plaintiff would have at least made a profit to recoup the expenses incurred.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 **Cost of Cure vs Diminution of Value:** The courts will consider both proportionality and the intention of the party claiming damages It follows that if cost of cure is cheaper than diminution in value, the courts will very likely grant cost of cure.
 
-{{<spoiler text="_Ruxley Electronics and Construction Ltd v Forsyth_ (1996)">}}
+{{<admonition type="case" title="_Ruxley Electronics and Construction Ltd v Forsyth_ (1996)">}}
 
 - **Context:** Ruxley agreed to build a swimming pool in Forsyth’s garden for £17,797.40. The contract specified that the pool should have a diving area 7’ 6" deep. However, the pool was only 6’ deep. Forsyth sought to recover the cost of demolishing the existing pool and constructing a new one with the required depth. The estimated cost of rebuilding the pool to the specified depth was estimated to be £21,560. There didn’t seem to be any diminution in value of the pool due to the breach of contract.
   - **Holding:** Forsyth could not recover the cost of cure. Nominal damages were awarded (because there was no real diminution of value to speak of). Crucially, the pool as constructed was perfectly safe to dive into; there was no evidence that the shortfall in depth had decreased the value of the pool; and Forsyth had no intention to build a new pool at such a cost.
   - **Reason:** If it is unreasonable to insist on reinstatement (**eg**, where the expense of the work involved would be out of all proportion to the benefit to be obtained), then damages are confined to the difference in value. The intentions of the parties should also be considered.
 
-{{</spoiler>}}
+{{</admonition >}}
 
-{{<spoiler text="_Radford v De Froberville_ (1977)">}}
+{{<admonition type="case" title="_Radford v De Froberville_ (1977)">}}
 
 - **Context:** Radford sold an adjacent land to DF on the condition that DF would build a wall (ala Donald Trump) on the land so as to divide it from Radford’s land. DF failed to do so. In this case, the cost of cure (**ie**, the cost of building the wall) was much higher than the difference in value in Radford’s property with and without the wall.
   - **Holding:** Radford was entitled to the cost of cure. The judge was entirely satisfied that Radford genuinely wanted the work done, and that he intended to expend any damages awarded on carrying it out.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ### 4.1.2 Non-pecuniary Loss
 
@@ -132,18 +132,18 @@ Expectation loss is the default mode of quantification of loss unless the aggrie
 
 **Loss of Amenity - Exception:** When it is clear from context and conduct that the loss is a clearly contemplated objective of the contract.
 
-{{<spoiler text="_Farley v Skinner (No 2)_ (2002)">}}
+{{<admonition type="case" title="_Farley v Skinner (No 2)_ (2002)">}}
 
 - **Context:** Skinner, a surveyor, was asked to survey a house and tell Farley (a prospective buyer of the house) if the property would be affected by aircraft noise Skinner said that it was unlikely, which turned out to be untrue. Skinner was thus in breach of contract. Farley sought to claim for non-pecuniary loss.
 - **Holding:** The claim was allowed, since an important object of the contract was to provide pleasure, relaxation or peace of mind (i.e. relief from noise).
 
-{{</spoiler>}}
+{{</admonition >}}
 
-{{<spoiler text="_Hobbs v The London and South Western Railway Co_ (1875)">}}
+{{<admonition type="case" title="_Hobbs v The London and South Western Railway Co_ (1875)">}}
 
 - Train company breached contract and caused Mr and Mrs Hobbs to alight at a different place. They had no place to stay and fell sick due to a drizzle that night. Mrs Hobbs was also very tired since she had to walk a long way back to her home. They were awarded damages.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ## 4.2 Reliance Loss
 
@@ -153,12 +153,12 @@ Expectation loss is the default mode of quantification of loss unless the aggrie
 - This head of claim is typically relied on where loss of profit is speculative or cannot be determined.
 - However, claiming on the reliance measure of loss will not work if the defendant can prove that the contract would not have been a profitable one if it had been properly performed.
 
-{{<spoiler text="_Anglia Television Ltd v Reed_ (1972)">}}
+{{<admonition type="case" title="_Anglia Television Ltd v Reed_ (1972)">}}
 
 - **Context:** Anglia asked Reed to star in a television play which they were producing. A few days later, Reed repudiated the contract. Anglia could not get a substitute for Reed and accepted the repudiation. They abandoned the production and sued Reed for wasted expenditure.
 - **Holding:** Because Anglia elected to claim wasted expenditure instead of loss of profits, they were allowed to claim the expenditure incurred before the contract, provided that it was reasonable that both parties knew it would be wasted if the contract was broken.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ## 4.3 Limits to Claiming Unliquidated Damages
 
@@ -170,12 +170,12 @@ Calculating the exact amount of loss is not a focus of the Contract Law class. T
 
 **Exception:** Did not cause the full loss.
 
-{{<spoiler text="_South Australia Asset Management Corp v York Montague Ltd_ (1997)">}}
+{{<admonition type="case" title="_South Australia Asset Management Corp v York Montague Ltd_ (1997)">}}
 
 - **Context:** A valuer overvalued certain properties in a valuation report on certain properties to the bank. Relying on the report, bank lent money to borrowers (with these properties as security) who defaulted. The bank sold the properties but the proceeds were not enough to cover the loan amount as there was a general fall in the market.
 - **Holding:** The valuer did not cause ALL the loss to the bank; only the loss resulting from the overvaluation was to be recovered. The valuer could not be held liable for loss arising from market fluctuations.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ### 4.3.2 Remoteness
 
@@ -184,12 +184,12 @@ Calculating the exact amount of loss is not a focus of the Contract Law class. T
 - **Ordinary Damage:** They are fairly and reasonably considered to arise naturally, in the usual course of things, from the breach itself.
 - **Extraordinary Damage:** They result from special circumstances that the parties had **actual knowledge of**.
 
-{{<spoiler text="_Out of the Box v Wanin Industries_ (2013)">}}
+{{<admonition type="case" title="_Out of the Box v Wanin Industries_ (2013)">}}
 **Analytical Framework for Remoteness of Damage**
 
 - What are the specific damages that have been claimed? - What are the facts that would have had a bearing on whether these damages would have been within the reasonable contemplation of the parties had they considered this at the time of the contract? - What are the facts that have been pleaded and proved either to have in fact been known or to be taken to have been known by the defendant at the time of the contract? - What are the circumstances in which those facts were brought home to the defendant? - Finally, in the light of the defendant’s knowledge and the circumstances in which that knowledge arose, would the damages in question have been considered by a reasonable person in the situation of the defendant at the time of the contract to be foreseeable as a not unlikely consequence that he should be liable for?
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ### 4.3.3 Mitigation
 
@@ -197,13 +197,13 @@ When it comes to mitigation, it is important to know that the aggrieved party ca
 
 **General Rule:** "The fundamental basis is thus compensation for pecuniary loss naturally flowing from the breach; but this first principle is qualified by a second, which imposes on a plaintiff the duty of taking all reasonable steps to mitigate the loss consequent on the breach, and debars him from claiming any part of the damage which is due to his neglect to take such steps" - _British Westinghouse Electric and Manufacturing Co Ltd v Underground Electric Railways Company of London Ltd_ (1912)
 
-{{<spoiler text="_The Asia Star_ (2010)">}}
+{{<admonition type="case" title="_The Asia Star_ (2010)">}}
 
 - The aggrieved party must take all reasonable steps to mitigate the loss consequent on the defaulting party’s breach, and cannot recover damages for any loss which it could have avoided but failed to avoid due to its own unreasonable action or inaction.
   - The aggrieved party who goes beyond what the law requires of it and avoids incurring any loss at all will not be entitled to recover any damages.
   - The aggrieved party may recover any expenses incurred in the court of taking reasonable steps to mitigate its loss.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 # 5 Non-compensatory Remedies (FYI)
 

@@ -35,13 +35,13 @@ weight: 80
 
 **General Rule:** An undisclosed principal can also sue (and be sued) the third party on a contract when the following requirements are met. (If the undisclosed principal sues the third party, the third party can use against the principal any defence it would have had against the agent)
 
-{{<spoiler text="_Family Food Court (a firm) v Seah Boon Lock_ (2008)">}}
+{{<admonition type="case" title="_Family Food Court (a firm) v Seah Boon Lock_ (2008)">}}
 
 - Agent must have actual authority
   - Agent must have intended to act on the principal’s behalf
   - The contract, or surrounding circumstances, must not show that the agent was the true principal
 
-{{</spoiler>}}
+{{</admonition >}}
 
 # 3 Apparent Authority
 

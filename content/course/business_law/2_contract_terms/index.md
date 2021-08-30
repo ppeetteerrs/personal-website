@@ -42,50 +42,50 @@ To decide whether a statement is an express terms, we cite the following cases /
 
 **General Rule:** The more important the statement in relation to the purpose of the contract, more likely it will be considered a term of the contract.
 
-{{<spoiler text="_Bannerman v White_ (1861)">}}
+{{<admonition type="case" title="_Bannerman v White_ (1861)">}}
 
 - **Context:** The buyer asked the seller of hops whether hops container sulfur and emphasized he would not bother to ask about the price if the hops had been treated with sulfur. Seller assured the hops were not treated with sulfur.
 - **Holding:** The assurance was a term.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ### 2.1.2 Special Knowledge or Skill
 
 **General Rule:** If the maker of the statement has special knowledge or skill, the special knowledge and skill may be relevant in determining whether the parties intended to be a term or representation.
 
-{{<spoiler text="_d v Harold Smith (Motors) Ltd_ (1965)">}}
+{{<admonition type="case" title="_d v Harold Smith (Motors) Ltd_ (1965)">}}
 
 - **Context:** A car trader specializing in prestigious cars recommended a Bentley, claiming it had done 20,000 miles (when it had in fact done 100,000) miles.
 - **Holding:** The statement is an express term.
 
-{{</spoiler>}}
+{{</admonition >}}
 
-{{<spoiler text="_Oscar Chess Ltd Williams_ (1957)">}}
+{{<admonition type="case" title="_Oscar Chess Ltd Williams_ (1957)">}}
 
 - **Context:** A layperson traded in his car, relying on its registration book to say that the car was 1948 model (when it was in fact a 1939 model).
 - **Holding:** The statement is an express term.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ### 2.1.3 Assuming Responsibility
 
 **General Rule:** A statement is likely to be a term if the party making it appears to have assumed responsibility for its truth or accuracy.
 
-{{<spoiler text="_Schawel v Reade_ (1913)">}}
+{{<admonition type="case" title="_Schawel v Reade_ (1913)">}}
 
 - **Context:** a horse seller told the buyer "you need not look for anything, the horse is perfectly sound for stud purposes. If there was any matter with this horse I should tell you".
 - **Holding:** The statement is an express term.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 **General Rule:** A statement is unlikely to be a term if the maker of the statement asks the other party to verify the truth himself.
 
-{{<spoiler text="_Ecay v Godfrey_ (1947)">}}
+{{<admonition type="case" title="_Ecay v Godfrey_ (1947)">}}
 
 - **Context:** The seller's asked the buyer to check that the boat was in good condition, but the buyer did not. This suggests that the parties intended for the buyer to assume responsibility for the product's condition.
 - **Holding:** The statement is an express term.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ### 2.1.4 Timing of the Statement
 
@@ -97,18 +97,18 @@ Aside from signature, there are other ways where a term can be interpreted into 
 
 ## 3.1 Signature
 
-{{<spoiler text="_L'Estrange v Graucob_ (1934)">}}
+{{<admonition type="case" title="_L'Estrange v Graucob_ (1934)">}}
 
 - **Context:** Ms L'EStrange hire-purchased a bending machine. The contract contained an exclusion clause in small print, and Ms L'Estrange did not read it.
 - **Holding:** Ms L'Estrange signed the agreement. No reading it is immaterial.
 
-{{</spoiler>}}
+{{</admonition >}}
 
-{{<spoiler text="_Press Automation Technology Pte Ltd v Trans-Link Exhibition Forwarding Pte Ltd_ (2003)">}}
+{{<admonition type="case" title="_Press Automation Technology Pte Ltd v Trans-Link Exhibition Forwarding Pte Ltd_ (2003)">}}
 
 - Explicit incorporating clause in signed contract.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ## 3.2 Reasonable Notice
 
@@ -116,75 +116,75 @@ Aside from signature, there are other ways where a term can be interpreted into 
 
 **General Rule:** Terms must be contained in or referred to in a document which was intended to have contractual effect.
 
-{{<spoiler text="_Chapelton v Urban District Council_ (1940)">}}
+{{<admonition type="case" title="_Chapelton v Urban District Council_ (1940)">}}
 
 - **Context:** Chapelton hired two deck chairs from the UDC at Brighton beach. He obtained a ticket form attendant. The chair later collapsed and UDC attempted to rely on the exemption clause on the ticket.
 - **Holding:** Exemption clause printed on the ticket was not a term of the contract since the ticket in this case was not a contractual document. No reasonable person would expect to find contractual terms on such a ticket as it would be regarded as a simple receipt. In most cases, such a ticket would be received only after the hirer had sat on the chair.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ### 3.2.2 Timing of Giving Notice
 
 **General Rule:** Notice must be given before or at the time of the contract, if given after the contract was made, it is ineffective.
 
-{{<spoiler text="_Borough Court Hotel Ltd_ (1949)">}}
+{{<admonition type="case" title="_Borough Court Hotel Ltd_ (1949)">}}
 
 - **Context:** Exemption clause displayed on bedroom door.
 - **Holding:** not part of the contract as notice only given after the contract was formed
 
-{{</spoiler>}}
+{{</admonition >}}
 
-{{<spoiler text="_Thornton v Shoe Lane Parking Ltd_ (1971)">}}
+{{<admonition type="case" title="_Thornton v Shoe Lane Parking Ltd_ (1971)">}}
 
 - **Context:** Thornton parked his car in the Defendant's automated car park. There was a notice at the entrance stating: "All car parked at owners' risk". A machine then issued a ticket which contained the printed words that referred to conditions displayed in another part of the car park. Thornton then suffered an injury from an accident when he collected his car.
 - **Holding:** insufficient reasonable notice of the exemption clause. Contract was formed when Thornton paid his money into the machine which later issued the ticket. No sufficient notice period prior to time of contract.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ### 3.2.3 Adequacy of notice
 
 **General Rule:** The person relying on the clause must show that he took reasonable steps to bring the clause to the attention of the other party - it must be sufficiently conspicuous and legible, but there is no need to show that the injured party had notice of it.
 
-{{<spoiler text="_Thompson v London, Midland and Scottish Railway Co_ (1930)">}}
+{{<admonition type="case" title="_Thompson v London, Midland and Scottish Railway Co_ (1930)">}}
 
 - **Context:** Conditions printed at the back with the ticket's front saying "for conditions, see back". Reasonably sufficient notice had been given.
 - **Holding:** The ticket was a common form of contractual document and since it referred to the timetable, the clause was held to be an integral part of the contract.
 
-{{</spoiler>}}
-{{<spoiler text="_Jet Holding Ltd v Cooper Cameron (Singapore) Pte Ltd_ (2005)">}}
+{{</admonition >}}
+{{<admonition type="case" title="_Jet Holding Ltd v Cooper Cameron (Singapore) Pte Ltd_ (2005)">}}
 
 - **Context:** Plaintiff sued the defendant for breach of contract when the ship's slip joint manufactured by the Defendant broke into two. Defendant tried to rely on standard form exemption clauses that were merely referred to in the notes of the quotation.
 - **Holding:** No adequate notice was given as the standard form clauses involved should have been brought fairly and reasonably to the plaintiff's attention.
 
-{{</spoiler>}}
-{{<spoiler text="_J Spurling Ltd v Bradshaw_ (1956) - Denning's red hand rule">}}
+{{</admonition >}}
+{{<admonition type="case" title="_J Spurling Ltd v Bradshaw_ (1956) - Denning's red hand rule">}}
 
 - "some clauses I have seen would need to be printed in red ink on the face of the document with a red hand pointing to it before the notice could be held to be sufficient"
 
-{{</spoiler>}}
-{{<spoiler text="_Interfaoto Picture Library Ltd v Stiletto Visual Programmes Ltd_ (1989)">}}
+{{</admonition >}}
+{{<admonition type="case" title="_Interfaoto Picture Library Ltd v Stiletto Visual Programmes Ltd_ (1989)">}}
 
 - **Context:** Interfoto delivered 47 transparencies to Stiletto in a jiffy bag, within which contained a delivery note stating the Interfoto's standard terms and conditions, which Stiletto did not read. It stated that if the transparencies are not returned on the agreed return date, they would charge a $5 per transparency per day.
 - **Holding:** Stiletto did not have to pay the fines.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ## 3.3 Course of Dealing
 
 **General Rule:** A term can be incorporated based on previous dealings between parties, even though it can be shown that the clause may not have been read or noticed by the party.
 
-{{<spoiler text="_J Spurling v Bradshaw_ (1956)">}}
+{{<admonition type="case" title="_J Spurling v Bradshaw_ (1956)">}}
 
 - **Context:** The parties had been doing business together for many years. The acknowledgement receipt referred to an exemption clause printed on the back.
 - **Holding:** The exemption clause was incorporated by previous course of dealings (although the contract had already been concluded by the time the Plaintiff passed the defendant the acknowledgement receipt document).
 
-{{</spoiler>}}
-{{<spoiler text="_Hollier v Rambler Motors_">}}
+{{</admonition >}}
+{{<admonition type="case" title="_Hollier v Rambler Motors_">}}
 
 - **Context:** Hollier previously repaired his car at the RM's garage 3 or 4 times over 5 years and on at least two of those occasions Hollier had signed a form containing an exemption clause. This time, parties entered into oral agreement to have the car repaired. The car was damaged by fire due to RM's negligence.
 - **Holding:** Insufficient course of dealing for the exemption clause to be incorporated into the oral agreement.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 # 4 Interpretation of Terms
 
@@ -288,12 +288,12 @@ X deals as a consumer in relation to Y if all three requirements under Section 1
 
 **Can a company be a consumer?**
 
-{{<spoiler text="_R&B Customs Brokers Co Ltd v United Dominions Trust Ltd_">}}
+{{<admonition type="case" title="_R&B Customs Brokers Co Ltd v United Dominions Trust Ltd_">}}
 
 - **Context:** R&B was a shipping company that bought a second-hand car for business and personal use.
 - **Holding:** R&B was a consumer as the purchase was 1. not integral parts of its business and 2. without a degree of regularity.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ### 6.1.5 Reasonableness Test
 

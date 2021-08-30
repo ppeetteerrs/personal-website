@@ -28,19 +28,19 @@ Discharging by full performance is generally straightforward to a reasonable per
 
 **General Rule:** Where parties perform what they have agreed to do under the contract, the contract comes to an end. Full performance must be precise and exact, subject to the _de minimis_ principle (i.e. reasonably close to full performance, like 1 cent short of a billion).
 
-{{<spoiler text="_Shipton, Anderson & Co v Wail Bros_ (1912)">}}
+{{<admonition type="case" title="_Shipton, Anderson & Co v Wail Bros_ (1912)">}}
 
 - **Context:** Cargo was less than 0.01% outside the agreed range.
 - **Holding:** It cannot be rejected.
 
-{{</spoiler>}}
+{{</admonition >}}
 
-{{<spoiler text="Arcos v Ronaasen (1933)">}}
+{{<admonition type="case" title="Arcos v Ronaasen (1933)">}}
 
 - **Context:** Timber were specifically required to be 1/2 inch thick but turned out to be 9/16 inch thick (10% thicker).
 - - **Holding:** It can be rejected.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ## 3.2 Partial Performance (Entire vs Divisible Contract)
 
@@ -54,19 +54,19 @@ Do note that Singapore law seems to **heavily favour divisible contracts** due t
 
 **General Rule:** Lump sum contracts are not necessarily entire contracts (needs entire performance stated as a condition to payment).
 
-{{<spoiler text="_GHoenig v Isaacs_ (1952)">}}
+{{<admonition type="case" title="_GHoenig v Isaacs_ (1952)">}}
 
 - **Context:** Hoenig was an interior designed who agreed to furnish Isaacs's flat for $750 and Isaacs only paid $400 and refused to pay the balance because of a defective bookcase and wardrobe.
 - **Holding:** Entire performance was not a condition precedent to payment being paid. Hoenig was thus entitled to the contract price minus deductions for defects.
 
-{{</spoiler>}}
+{{</admonition >}}
 
-{{<spoiler text="Cutter vs Powell (1795)">}}
+{{<admonition type="case" title="Cutter vs Powell (1795)">}}
 
 - **Context:** Explicitly stated in the contract that the condition for payment is the fulfillment of entire promise (payment made 10 days after the ship arrives at Liverpool provided he proceeds, continues and does his duty from hence to the port of Liverpool).
 - **Holding:** The estate of the sailor who died could not recover for work he had done before his death as he died halfway.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 **General Rule (the doctrine of substantial performance):** Where a party in breach has substantially performed his obligation under an entire contract, the innocent party must perform his obligation under that contract and settle for an action for damages for any loss suffered as a result of that breach. - _Tan Boon Hai v Tan Kia Kok_ (2016)
 
@@ -91,7 +91,7 @@ It is **important** to note that termination means that contracting parties are 
 
 ## 4.2 How does discharge by breach occur?
 
-{{<spoiler text="_RDC Concrete Pte Ltd v Sato Kyogo (S) Pte Ltd_ (2007)">}}
+{{<admonition type="case" title="_RDC Concrete Pte Ltd v Sato Kyogo (S) Pte Ltd_ (2007)">}}
 
 - **Situation 1:** The term clearly states that, in the event of a certain event(s) occurring, innocent party may terminate.
 - **Situation 2:** The party in breach renounces contract by conveying clearly to innocent party it will not perform its contractual obligation at all (repudiation).
@@ -99,17 +99,17 @@ It is **important** to note that termination means that contracting parties are 
 - **Situation 3(b) -"Hongkong Fir approach":** The party in breach has committed a breach, the consequences of which will deprive innocent party of substantially the whole benefit which it was intended he should obtain.
 - **Situations 2-3:** Also apply to situations where there is anticipatory breach.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ### 4.2.1 Situation 1
 
 **Situation:** A term in the contract can state that a party may terminate if X event occurs.
 
-{{<spoiler text="_RDC Concrete Pte Ltd v Sato Kyogo (S) Pte Ltd_ (2007)">}}
+{{<admonition type="case" title="_RDC Concrete Pte Ltd v Sato Kyogo (S) Pte Ltd_ (2007)">}}
 
 - "in the event that your supply is unable to meet LTA's requirements, or you are unable to continue your supply"
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ### 4.2.2 Situation 2
 
@@ -146,27 +146,27 @@ To determine whether a term is a condition or warranty, we look at the intention
 
 **General Rule:** The right to elect to affirm the contract has been said to be unfettered.
 
-{{<spoiler text="_White and Carter (Councils) Ltd v McGregor_ (1962) (heavily criticized for waste)">}}
+{{<admonition type="case" title="_White and Carter (Councils) Ltd v McGregor_ (1962) (heavily criticized for waste)">}}
 
 - White display advertisement of McGregor for 3 years even if McGregor requested for contract to be cancelled but White refused and claimed for contract price after continuing for 3 years.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 **Ability to Perform:** If innocent party cannot complete performance, he cannot affirm the contract.
 
-{{<spoiler text="_The Alaskan Trader_ (1984)">}}
+{{<admonition type="case" title="_The Alaskan Trader_ (1984)">}}
 
 - Seller cannot complete performance if buyer refuses to accept delivery of the goods.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 **Legitimate Interest (fishy):** Law may restrict the right to elect to affirm if the innocent party had "no legitimate interest" in affirming the contract (financial interest alone is not sufficient, legal and economic interests). - _The Alaskan Trader_ (1984)
 
-{{<spoiler text="_The Odenfeld_ (1978)">}}
+{{<admonition type="case" title="_The Odenfeld_ (1978)">}}
 
 - Generally the courts will not allow an innocent party to elect to affirm the contract if it would be "unrealistic, unreasonable and untenable".
 
-{{</spoiler>}}
+{{</admonition >}}
 
 **Mutual Breach:** X can terminate if X and Y both breached separate conditions unless X's breach is (1) continuing and (2) X's breach is a condition precedent to Y's breach - _Alliance Concrete Singapore v Comfort Resources_ (2009)
 
@@ -190,14 +190,14 @@ Also, the test, especially for the unforeseen requirement, has to be performed f
 
 ### 5.1.2 Requirements
 
-{{<spoiler text="_Davis Contractors Ltd v Fareham UDC_ (1956)">}}
+{{<admonition type="case" title="_Davis Contractors Ltd v Fareham UDC_ (1956)">}}
 **Requirements for Discharge by Frustration**
 
 - The frustrating event cannot be self-induced.
   - The frustrating event must be unforeseen.
   - The frustrating event must render performance of the contract radically different.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ## 5.2 Requirement 1 - Cannot be Self-induced
 
@@ -215,83 +215,83 @@ Also, the test, especially for the unforeseen requirement, has to be performed f
 
 **General Rule:** Supervening change in law rendering performance illegal allows discharge by frustration.
 
-{{<spoiler text="_Denny, Mott & Dickinson v James B Fraser & Co Ltd_ (1944)">}}
+{{<admonition type="case" title="_Denny, Mott & Dickinson v James B Fraser & Co Ltd_ (1944)">}}
 
 - **Context:** James agreed to buy wood from Denny and war broke out with the government enacting the Control of timber Order 1939, which made trading under their contract illegal.
 - **Holding:** Contract was frustrated.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ### 5.4.2 General Impossibility
 
 **Destruction of Subject Matter:** Item has so changed as to become an unmerchantable thing which no buyer would buy and no honest seller would see. - _Asfar and Co v Blundell_ (1896)
 
-{{<spoiler text="_Taylor v Caldwell_ (1863)">}}
+{{<admonition type="case" title="_Taylor v Caldwell_ (1863)">}}
 
 - **Context:** Caldwell agreed to rent out music hall to Taylor but music hall was accidentally destroyed by fire (without fault of either party).
 - **Holding:** Contract was frustrated.
-- {{</spoiler>}}
+- {{</admonition >}}
 
 **Unavailability of Subject Matter:** Contract frustrated.
 
-{{<spoiler text="_Bank Line Ltd v Arthur Capel_ (1919)">}}
+{{<admonition type="case" title="_Bank Line Ltd v Arthur Capel_ (1919)">}}
 
 - **Context:** Defendant agreed to charter a steamer to plaintiff but before delivery the steamer was requisitioned by the Government until after the start date.
 - **Holding:** Contract was frustrated.
-- {{</spoiler>}}
+- {{</admonition >}}
 
 **Unavailability of Subject Matter - Exception:** Contract is not frustrated if there are more than one means to perform the contract.
 
-{{<spoiler text="_The 'Super Servant Two'_ (1990)">}}
+{{<admonition type="case" title="_The 'Super Servant Two'_ (1990)">}}
 
 - **Context:** Defendant agreed to transport claimant's oil drilling rig from Japan to Rotterdam. Contract allowed defendant to use either SS1 or SS2, SS2 sunk before transport could begin but SS1 was also used for other contracts. Defendant transported the right with barge tower by a tugboat.
 - **Holding:** Contract was not frustrated as an alternative was provided.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 **Failure of Method of Performance:** Parties may have contemplated a certain method of performance. Contract is frustrated if the method stipulated was intended to be exclusive and becomes impossible.
 
-{{<spoiler text="_Alliance Concreate v Sato Kyogo_ (2014)">}}
+{{<admonition type="case" title="_Alliance Concreate v Sato Kyogo_ (2014)">}}
 
 - **Context:** AC supplied SK with ready mixed concrete (RMC) to build the boon Lay MRT extension. Indonesia banned sand exports to Singapore. AC had to make RMC using more costly Singapore's stockpile.
 - **Holding:** Contract was frustrated. Since both parties contemplated the use of Indonesian sand for the RMC's preparation and whole market knew that Indonesia was the only source of sand. The sand ban was a supervening event that both parties could not control.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 **Failure of Method of Performance:** Where a contract depends upon personal skill and the act of God renders it impossible, e.g. a painter struck blind, the contract is frustrated. - _Hall v Wright_ (1859)
 
 **Frustration of Common Purpose:** Failure of common purpose on which contract was based constitutes a radical change.
 
-{{<spoiler text="_Krell v Henry_ (1903)">}}
+{{<admonition type="case" title="_Krell v Henry_ (1903)">}}
 
 - **Context:** Plaintiff rented his flat to defendant for 2 days but not nights because the coronation of Edward VII would take place and pass along Pall Mall. The procession was postponed because of the illness of the King.
 - **Holding:** The contract was frustrated as the court inferred that the proclaimed route was regarded by both contracting parties as the foundation of the contract.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 **Delay:** In order for a delay to render a thing radically different, the delay must be also abnormal in its effect or expected duration so as to fall outside the reasonable contemplation of the parties at the time of contract.
 
-{{<spoiler text="_Metropolitan Water Board v Dick, Kerr & Co_ (1918)">}}
+{{<admonition type="case" title="_Metropolitan Water Board v Dick, Kerr & Co_ (1918)">}}
 
 - **Context:** DKC agreed to construct a reservoir for MWB in 6 years and the contract allowed for a generous extension of time for completion in many circumstances, WWI broke out a few months after the contract was formed.
 - **Holding:** Contract was frustrated. War prohibited work from resuming until almost the end of 6 years, situation would be very different by then.
 
-{{</spoiler>}}
+{{</admonition >}}
 
 **Exception:** Mere impracticality or reduction in profits is not enough.
 
-{{<spoiler text="_Tsakiroglou & Co Ltd v Noblee Thorl GmbH_ (1962)">}}
+{{<admonition type="case" title="_Tsakiroglou & Co Ltd v Noblee Thorl GmbH_ (1962)">}}
 
 - **Context:** T agreed to sell Sudanese groudnuts to N from Port Sudan to Hamburgh but Suez Canal was closed to navigation due to war. T failed to ship the goods because the alternative route round the Cape of Good Hope was twice as long and far more costly.
 - **Holding:** contract not frustrated.
 
-{{</spoiler>}}
+{{</admonition >}}
 
-{{<spoiler text="_Holcim (Singapore) Pte Ltd v Precise Development Pte Ltd_ (2011)">}}
+{{<admonition type="case" title="_Holcim (Singapore) Pte Ltd v Precise Development Pte Ltd_ (2011)">}}
 
 - While a mere increase in prices of source materials alone was generally insufficient to constitute a "hindrance" or "prevention" that can constitute frustration, the issue was open as to what would be the legal position if the increase in price were **astronomical**
 
-{{</spoiler>}}
+{{</admonition >}}
 
 ## 5.5 Effects of Frustration
 

@@ -1,7 +1,7 @@
 theme: minimal
 day_night: true
 font: "custom"
-font_size: L
+font_size: M
 
 # SEO
 site_type: Person

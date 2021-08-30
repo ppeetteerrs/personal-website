@@ -46,7 +46,7 @@
 	},
 	"spoiler": {
 		"prefix": "spoiler",
-		"body": "{{<spoiler text=\"$1\">}}\n$0\n{{</spoiler>}}",
+		"body": "{{<admonition type="case" title=\"$1\">}}\n$0\n{{</admonition >}}",
 		"description": "Spoiler block"
 	},
 	"concept": {

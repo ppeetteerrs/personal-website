@@ -13,13 +13,16 @@
 {{- $iconMap  = dict "example" "fas fa-list-ol fa-fw" | merge $iconMap -}}
 {{- $iconMap  = dict "quote" "fas fa-quote-right fa-fw" | merge $iconMap -}}
 {{- $iconMap  = dict "case" "fas fa-balance-scale-right fa-fw" | merge $iconMap -}}
+{{- $iconMap  = dict "rule" "fas fa-ruler fa-fw" | merge $iconMap -}}
+{{- $iconMap  = dict "insight" "fas fa-lightbulb fa-fw" | merge $iconMap -}}
+{{- $iconMap  = dict "def" "fas fa-dyalog fa-fw" | merge $iconMap -}}
 {{- $iconDetails := "fas fa-angle-right fa-fw" -}}
 
 {{- if .IsNamedParams -}}
     {{- $type := .Get "type" | default "note" -}}
     <div class="details admonition {{ $type }}{{ if .Get `open` | ne false }} open{{ end }}">
         <div class="details-summary admonition-title">
-            <i class="icon {{ index $iconMap $type | default (index $iconMap "note") }}"></i>{{ .Get "title" | default (T $type) }}<i class="details-icon {{ $iconDetails }}"></i>
+            <i class="icon {{ index $iconMap $type | default (index $iconMap "note") }}"></i>{{ .Get "title" | default (T $type) | markdownify | emojify }}<i class="details-icon {{ $iconDetails }}"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">
@@ -31,7 +34,7 @@
     {{- $type := .Get 0 | default "note" -}}
     <div class="details admonition {{ $type }}{{ if .Get 2 | ne false }} open{{ end }}">
         <div class="details-summary admonition-title">
-            <i class="icon {{ index $iconMap $type | default (index $iconMap "note") }}"></i>{{ .Get 1 | default (T $type) }}<i class="details-icon {{ $iconDetails }}"></i>
+            <i class="icon {{ index $iconMap $type | default (index $iconMap "note") }}"></i>{{ .Get 1 | default (T $type) | markdownify | emojify}}<i class="details-icon {{ $iconDetails }}"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content">
