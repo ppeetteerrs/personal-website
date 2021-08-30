@@ -157,7 +157,7 @@ The essence to identifying a common mistake is the three requirements listed bel
 
 - Mere negligence is **not** impropriety
   - The conduct of deliberately not bringing the suspicion of a possible mistake to the attention of the mistaken party could constitute such impropriety
-  - **Facts of the case** - The second appellant had made extensive search over the Internet and found that other websites were offering the same printer at about $3000. He had admitted doubting the price on the respondent’s website and even wondered if he was only buying parts. He was **shutting his eyes to the truth and snapping up a bargain even when he doubted its correctness**. - The 4<sup>th</sup> appellant was concerned with the very low price of $66 since colour laser printers were among the most expensive in the world. He searched Internet and found that they usually sold for US$2000. He tried to seek confirmation with the respondent via telephone but nobody picked up. - He suspected that there was a mistake; the reasonable thing to do was to wait until the morning to ascertain the truth of the offer before ordering. He proceeded to make purchases as if he was scared that his belief that there was a mistake would be confirmed. The act of verification confirmed that he had harboured doubts about the correctness of the price.
+  - **Facts of the case** - The second appellant had made extensive search over the Internet and found that other websites were offering the same printer at about <span>$</span>3000. He had admitted doubting the price on the respondent’s website and even wondered if he was only buying parts. He was **shutting his eyes to the truth and snapping up a bargain even when he doubted its correctness**. - The 4<sup>th</sup> appellant was concerned with the very low price of <span>$</span>66 since colour laser printers were among the most expensive in the world. He searched Internet and found that they usually sold for US <span>$</span>2000. He tried to seek confirmation with the respondent via telephone but nobody picked up. - He suspected that there was a mistake; the reasonable thing to do was to wait until the morning to ascertain the truth of the offer before ordering. He proceeded to make purchases as if he was scared that his belief that there was a mistake would be confirmed. The act of verification confirmed that he had harboured doubts about the correctness of the price.
 
 {{</admonition >}}
 
@@ -430,14 +430,14 @@ All three types have the three elements of misrepresentation but the difference 
 1. There must have been a false representation of fact
 2. The representation was made with the intention that it should be acted on by the representee
 
-- Whether the representor intended to induce the representee to act on the representation must be determined subjectively -**Wee Chiaw Sek Anna v Ng Li-Ann Genevieve** (2013)
+- Whether the representor intended to induce the representee to act on the representation must be determined subjectively -*Wee Chiaw Sek Anna v Ng Li-Ann Genevieve* (2013)
 
-3. The representee acted upon the false statement
-   - If the false statement does not influence or lead the representee to change his behaviour in reliance of the misrepresentation, there is no inducement -**Wee Chiaw Sek Anna v Ng Li-Ann Genevieve** (2013)
-4. The representee suffered damage by so doing
-5. The representation was wilfully made with the knowledge that it was false, or at least made in the absence of any genuine belief that it was true
+1. The representee acted upon the false statement
+   - If the false statement does not influence or lead the representee to change his behaviour in reliance of the misrepresentation, there is no inducement -*Wee Chiaw Sek Anna v Ng Li-Ann Genevieve* (2013)
+2. The representee suffered damage by so doing
+3. The representation was wilfully made with the knowledge that it was false, or at least made in the absence of any genuine belief that it was true
 
-- Dishonesty must be determined subjectively (from the perspective of the representor) - **Wee Chiaw Sek Anna v Ng Li-Ann Genevieve** (2013)
+- Dishonesty must be determined subjectively (from the perspective of the representor) - *Wee Chiaw Sek Anna v Ng Li-Ann Genevieve* (2013)
 - If the representor honestly believed in what he or she was representing, there can be no fraudulent misrepresentation
 
 {{</admonition >}}

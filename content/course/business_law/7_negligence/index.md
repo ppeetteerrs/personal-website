@@ -47,7 +47,7 @@ weight: 70
 {{<admonition type="case" title="Spandeck Engineering (S) Pte Ltd v DSTA (2007)">}}
 
 - **Threshold:** Factual (reasonable) foreseeability
-- <strong>Two-stage Test</strong
+- **Two-stage Test**
   - Legal Proximity
   - Policy Considerations (if threshold + legal proximity established, prima facie duty of care arises. Policy considerations should then be applied to determine whether or not to negate this duty
 
@@ -169,7 +169,7 @@ Establishing a duty of care is the first step, but not sufficient to create liab
 ## 4.1 Factors Determining Standard of Care
 
 - Extent of harm - risk + magnitude (i.e. P(suffered damage occurring | negligent act) \* |damage suffered|)
-- Cost of avoiding harm - do not expect people to go to great expense to eliminate any possible risk, just take reasonable steps / precautions - _Latimer v AEC _(1953)
+- Cost of avoiding harm - do not expect people to go to great expense to eliminate any possible risk, just take reasonable steps / precautions - _Latimer v AEC_ (1953)
 - Industry standards
 
 ## 4.2 Professionals

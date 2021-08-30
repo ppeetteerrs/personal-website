@@ -37,7 +37,7 @@ weight: 60
 
 {{<admonition type="case" title="_CLAAS Medical Centre Pte Ltd v Ng Boon Ching_ (2010)">}}
 
-- **Context:** NBC was a shareholder-director of CLAAS. A particular agreement precluded its signatories from competing with CLAAS if they were a director OR while and for 3 years after they were shareholders. In default, they would have to pay $1 million. CLAAS was not a signatory to this agreement. NBC sold his shares, resigned as director, and set up a practice in competition with CLAAS. He was sued for $1 million. CLAAS sought to rely on the CRTPA to enforce the contract.
+- **Context:** NBC was a shareholder-director of CLAAS. A particular agreement precluded its signatories from competing with CLAAS if they were a director OR while and for 3 years after they were shareholders. In default, they would have to pay <span>$</span>1 million. CLAAS was not a signatory to this agreement. NBC sold his shares, resigned as director, and set up a practice in competition with CLAAS. He was sued for <span>$</span>1 million. CLAAS sought to rely on the CRTPA to enforce the contract.
 - **Holding:** CLAAS could rely on the CRTPA to claim damages against Dr Ng.
   - Section 2(1)(a) did NOT apply, as the agreement did not expressly allow CLAAS to sue.
   - However, section 2(1)(b) applied. - Clause 11(c) of the agreement expressly stated that damages for breach are payable to CLAAS. - NBC failed to show (under section 2(2) CRTPA) that the parties did not intend for CLAAS to enforce the contract.

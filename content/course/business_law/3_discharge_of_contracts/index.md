@@ -87,7 +87,7 @@ Do note that Singapore law seems to **heavily favour divisible contracts** due t
 
 ### 4.1.1 VERY IMPORTANT NOTE
 
-It is **important** to note that termination means that contracting parties are freed from all **future contractual obligations.**Using the bubble tea example where you received 30 out of 50 cups but has yet to pay a single dollar. Even though you can sue for the breach of non-delivery of 20 cups of bubble tea, you still have to pay for the 30 cups because they are already delivered and it is your **existing obligation** to pay for them. Hence, in this case, **there is not point discussing termination / affirmation** of the contract under a breach. The situation will be different only if, for example, that there are two batches of bubble deliveries. In that case, the second batch of bubble tea need not be delivered / paid for.
+It is **important** to note that termination means that contracting parties are freed from all **future contractual obligations.** Using the bubble tea example where you received 30 out of 50 cups but has yet to pay a single dollar. Even though you can sue for the breach of non-delivery of 20 cups of bubble tea, you still have to pay for the 30 cups because they are already delivered and it is your **existing obligation** to pay for them. Hence, in this case, **there is not point discussing termination / affirmation** of the contract under a breach. The situation will be different only if, for example, that there are two batches of bubble deliveries. In that case, the second batch of bubble tea need not be delivered / paid for.
 
 ## 4.2 How does discharge by breach occur?
 

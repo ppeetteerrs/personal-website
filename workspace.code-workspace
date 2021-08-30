@@ -30,6 +30,7 @@
       "netlify.toml": true,
     },
     "python.defaultInterpreterPath": "python",
-    "markdown.extension.preview.autoShowPreviewToSide": false
+    "markdown.extension.preview.autoShowPreviewToSide": false,
+    "editor.formatOnSave": true
   },
 }

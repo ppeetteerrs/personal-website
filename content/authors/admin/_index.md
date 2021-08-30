@@ -12,12 +12,12 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/ppeetteerrs
-  - icon: cv
-    icon_pack: ai
-    link: uploads/CV.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/CV.pdf
 ---
 
-I created this blog post with a passion to share knowledge, in a **structured** and **intuitive** manner. I hope that I can help others learn more **effectively** explaining things in my own words.
+I created this blog post with a passion to share knowledge, in a **structured** and **intuitive** manner. I hope that I can help others learn more **effectively** by explaining things in my own words.
 
 Some of the topics that you may find in this blog include:
 

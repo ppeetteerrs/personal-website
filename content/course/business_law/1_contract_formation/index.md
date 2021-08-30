@@ -27,13 +27,13 @@ There are also related issues concerning the formation of contracts, namely:
 1. Promissory Estoppel
 2. Capacity
 
-## 1.3 Exam Tips (SUPER IMPORTANT)
+<h2 class="shake-little"><strong> 1.3 Exam Tips (SUPER IMPORTANT)</strong></h2>
 
-The Contract Law syllabus is full of cases and general rules. It is important to realise that the ultimate truth lies in the **case facts**, not previous court rulings. Often times, past cases outline a test for a certain scenario which involves analysing the **objective intentions of the parties / reasonableness of an action / remoteness of an event** etc.
+The Contract Law syllabus is full of cases and general rules. It is important to realise that the ultimate truth lies in the **case facts**, not previous court rulings.
 
-When answering these questions, you should of course **quote the case that outlined the test**. However, it VERY IMPORTANT to **make your judgement primarily from the facts of the case**. Citing relevant cases only serve to strengthen your argument. Many students are simply **trying too hard to draw analogy** from a past ruling to a point where the whole argument simply makes no sense. Although I am not a Prof, I can guarantee you that students who do so will score poorly.
+_Ratio decidendi_ means that the **rationale / procedures** outlined by previous court rulings are binding. When answering questions, quote the **reasoning** used by a higher court case instead of blindly citing the **outcome**. It is easy to make the mistake of **trying too hard to draw analogy** from a past ruling to a point where the whole argument simply makes no sense.
 
-One way to test whether your argument makes sense or whether you are just spitting out meaningless words is to say it out to another person. If the other person ask you to explain further and you realise that you end up repeating the exact same sentence, then you are not making sense.
+It is also usually help to understand that most **test procedures** outlined in Business Law are there to help you systematically analyse the **objective intentions of the parties / reasonableness of an action / remoteness of an event** etc. Understanding **why** a certain test is conducted is crucial towards making a strong argument.
 
 # 2 Offer and Acceptance
 

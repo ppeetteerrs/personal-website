@@ -9,6 +9,10 @@
 	}
 }
 
+.docs-article-container {
+	max-width: 1600px;
+}
+
 .powered-by {
 	display: none;
 }
@@ -43,4 +47,8 @@ table {
 
 .article-style {
 	overflow: hidden;
+}
+
+.admonition ul {
+	margin: 0;
 }
