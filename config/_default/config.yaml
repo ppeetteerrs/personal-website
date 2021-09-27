@@ -70,5 +70,5 @@ module:
 
 
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  home: [HTML, RSS, JSON, headers, redirects]
   section: [HTML, RSS]

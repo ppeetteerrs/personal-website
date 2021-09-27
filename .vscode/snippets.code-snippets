@@ -66,13 +66,13 @@
 	},
 	"note": {
 		"prefix": "note",
-		"body": "{{<admonition title=\"Side Note: $1\" type=\"${2:grey}\">}}\n$0\n{{</admonition>}}",
+		"body": "{{<admonition type=\"note\" title=\"$1\">}}\n$0\n{{</admonition>}}",
 		"description": "Note block"
 	},
-	"aside": {
-		"prefix": "aside",
-		"body": "{{<admonition title=\"$1\" type=\"${2:blue}\">}}\n$0\n{{</admonition>}}",
-		"description": "Aside block"
+	"rule": {
+		"prefix": "rule",
+		"body": "{{<admonition type=\"rule\" title=\"$1\">}}\n$0\n{{</admonition>}}",
+		"description": "Rule block"
 	},
 	"stl": {
 		"prefix": "stl",

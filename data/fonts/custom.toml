@@ -2,7 +2,8 @@ name = "custom"
 
 google_fonts = "family=Fira+Code:wght@400;700&family=Poppins:wght@400;700&family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Ubuntu:wght@400;700"
 
-body_font    = "system-ui"
-heading_font = "system-ui"
+body_font    = "Poppins"
+heading_font = "Poppins"
 mono_font    = "Fira Code"
 nav_font     = "Poppins"
+ #-apple-system, -system-ui
