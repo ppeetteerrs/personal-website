@@ -4,6 +4,6 @@
 # Hugo
 resources/
 public/
-bk/
+backup/
 go.sum
 *Zone.Identifier

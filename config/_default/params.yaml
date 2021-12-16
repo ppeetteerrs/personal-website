@@ -12,8 +12,8 @@ search:
   provider: wowchemy
   wowchemy:
     min_length: 1
-    threshold: 0.3 
-    
+    threshold: 0.3
+
 # Site header
 main_menu:
   enable: true
@@ -22,7 +22,7 @@ main_menu:
   show_language: false
   show_day_night: true
   show_search: true
-  highlight_active_link: true
+  highlight_active_link: false
 
 # Localization
 date_format: "2 Jan 2006"
@@ -54,7 +54,7 @@ highlight_languages:
   - verilog
 highlight_style: "shades-of-purple"
 math: true
-diagram: false
+diagram: true
 privacy_pack: false
 edit_page:
   repo_url: ""

@@ -7,6 +7,10 @@ date: 2020-09-30
 
 type: book
 
+weight: 1
+
+toc: false
+
 order_by: weight
 ---
 

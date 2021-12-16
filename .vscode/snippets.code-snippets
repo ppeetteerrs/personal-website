@@ -44,35 +44,55 @@
 		"body": "\\limits_{${1:i=1}}^{${2:\\infty}}$0",
 		"description": "Limits"
 	},
-	"spoiler": {
-		"prefix": "spoiler",
-		"body": "{{<admonition type="case" title=\"$1\">}}\n$0\n{{</admonition >}}",
-		"description": "Spoiler block"
+	"case": {
+		"prefix": "case",
+		"body": "{{<admonition type=\"case\" title=\"$1\">}}\n$0\n{{</admonition >}}",
+		"description": "case block"
+	},
+	"rule": {
+		"prefix": "rule",
+		"body": "{{<admonition type=\"rule\" title=\"$1\">}}\n$0\n{{</admonition>}}",
+		"description": "Rule block"
+	},
+	"insight": {
+		"prefix": "insight",
+		"body": "{{<admonition type=\"insight\" title=\"$1\">}}\n$0\n{{</admonition>}}",
+		"description": "Insight block"
+	},
+	"misc": {
+		"prefix": "misc",
+		"body": "{{<admonition type=\"misc\" title=\"$1\" open=\"false\">}}\n$0\n{{</admonition>}}",
+		"description": "Misc block"
+	},
+	"definition": {
+		"prefix": "definition",
+		"body": "{{<admonition type=\"definition\" title=\"$1\">}}\n$0\n{{</admonition>}}",
+		"description": "Definition block"
+	},
+	"theorem": {
+		"prefix": "theorem",
+		"body": "{{<admonition type=\"theorem\" title=\"$1\">}}\n$0\n{{</admonition>}}",
+		"description": "Theorem block"
 	},
 	"concept": {
 		"prefix": "concept",
-		"body": "{{<admonition title=\"Concept: $1\" type=\"${2:blue}\">}}\n$0\n{{</admonition>}}",
+		"body": "{{<admonition type=\"blue\" title=\"Concept: $1\">}}\n$0\n{{</admonition>}}",
 		"description": "Concept block"
 	},
 	"result": {
 		"prefix": "result",
-		"body": "{{<admonition title=\"Result: $1\" type=\"${2:purple}\">}}\n$0\n{{</admonition>}}",
+		"body": "{{<admonition type=\"purple\" title=\"Result: $1\">}}\n$0\n{{</admonition>}}",
 		"description": "Result block"
 	},
 	"intuition": {
 		"prefix": "intuition",
-		"body": "{{<admonition title=\"Intuition: $1\" type=\"${2:green}\">}}\n$0\n{{</admonition>}}",
+		"body": "{{<admonition type=\"green\" title=\"Intuition: $1\">}}\n$0\n{{</admonition>}}",
 		"description": "Intuition block"
 	},
 	"note": {
 		"prefix": "note",
 		"body": "{{<admonition type=\"note\" title=\"$1\">}}\n$0\n{{</admonition>}}",
 		"description": "Note block"
-	},
-	"rule": {
-		"prefix": "rule",
-		"body": "{{<admonition type=\"rule\" title=\"$1\">}}\n$0\n{{</admonition>}}",
-		"description": "Rule block"
 	},
 	"stl": {
 		"prefix": "stl",
@@ -193,6 +213,11 @@
 		"prefix": "xi",
 		"body": "\\xi",
 		"description": "xi"
+	},
+	"rho": {
+		"prefix": "rr",
+		"body": "\\rho",
+		"description": "rho"
 	},
 	"pi": {
 		"prefix": "pi",
@@ -448,5 +473,5 @@
 		"prefix": "beg",
 		"body": "\\begin{$1}\n\t${0}\n\\end{$1}",
 		"description": "begin environment"
-	},
+	}
 }

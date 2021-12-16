@@ -2,18 +2,18 @@ main:
   - name: "<div class='hvr-pulse'>🏠 Home</div>"
     url: "/"
     weight: 10
-  - name: "<div class='hvr-pulse'>⚒️ Projects</div>"
-    url: "project/"
+  - name: "<div class='hvr-pulse'>💬 Posts</div>"
+    url: "post/"
     weight: 20
+  # - name: "<div class='hvr-pulse'>⚒️ Projects</div>"
+  #   url: "project/"
+  #   weight: 20
   - name: "<div class='hvr-pulse'>👨‍🏫 Courses</div>"
     url: "course/"
     weight: 30
-  - name: "<div class='hvr-pulse'>📃 Publications</div>"
-    url: "publication/"
-    weight: 40
-  - name: "<div class='hvr-pulse'>💬 Posts</div>"
-    url: "post/"
-    weight: 50
+  # - name: "<div class='hvr-pulse'>📃 Publications</div>"
+  #   url: "publication/"
+  #   weight: 40
   - name: "<div class='hvr-pulse'>📁 Archives</div>"
     url: "archives/"
     weight: 60

@@ -4,7 +4,6 @@ function init() {
 		$summary.addEventListener(
 			"click",
 			() => {
-				console.log("ouchhhhhhhhh");
 				element.classList.toggle("open");
 			},
 			false
