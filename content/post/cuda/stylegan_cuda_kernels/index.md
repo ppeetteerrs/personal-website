@@ -435,10 +435,15 @@ Having loaded the kernel, we loop over `loop_n` and load the input array into sh
             int in_x     = rel_in_x + tile_in_x;
             int in_y     = rel_in_y + tile_in_y;
 
+            scalar_t v = 0.0;
+
             if (in_x >= 0 & in_y >= 0 & in_x < p.in_w & in_y < p.in_h) {
-                sx[rel_in_y][rel_in_x] =
-                    input[(tile_out_n * p.in_h + in_y) * p.in_w + in_x];
+                v = input[(tile_out_n * p.in_h + in_y) * p.in_w + in_x];
             }
+
+            // Imperative to initialize all tensor elements to 0 if not
+            // covered by input
+            sx[rel_in_y][rel_in_x] = v;
         }
 
         __syncthreads();
