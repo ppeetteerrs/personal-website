@@ -43,7 +43,7 @@ markup:
       taskList: true
       typographer: true
   tableOfContents:
-    startLevel: 1
+    startLevel: 2
     endLevel: 4
 
 related:
@@ -69,5 +69,8 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
 
 outputs:
-  home: [HTML, RSS, JSON, headers, redirects]
+  home: [HTML, RSS, JSON]
   section: [HTML, RSS]
+
+params:
+  toc: true
